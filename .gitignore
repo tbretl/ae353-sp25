@@ -14,6 +14,13 @@ _site/
 .bundle/
 vendor/
 
+########################################
+# Added manually by T. Bretl
+
+# Ignore lock file
+Gemfile.lock
+########################################
+
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,python
 
