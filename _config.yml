@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: AE 353: Aerospace Control Systems
+description: The course website for Aerospace Control Systems.
 theme: just-the-docs
 
-url: https://just-the-docs.github.io
+url: https://tbretl.github.io/ae353-sp25
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/tbretl/ae353-sp25
