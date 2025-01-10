@@ -1,0 +1,19 @@
+
+.main-content {
+    ul {
+        list-style: disc;
+        li {
+            &::before {
+                content: unset;
+            }
+        }
+
+        ul {
+            list-style: circle;
+
+            ul {
+                list-style: "-  ";
+            }
+        }
+    }
+}

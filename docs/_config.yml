@@ -6,3 +6,19 @@ url: https://tbretl.github.io/ae353-sp25
 
 aux_links:
   Template Repository: https://github.com/tbretl/ae353-sp25
+
+math: mathjax
+
+plugins:
+  - jekyll-default-layout
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+callouts:
+  note:
+    title: Note
+    color: yellow
+  result:
+    title: Result
+    color: green

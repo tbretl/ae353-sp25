@@ -1,0 +1,20 @@
+<!--
+  Add '$' as an extra inline math delimiter. It is now easiest to use $ ... $ for
+  inline math and $$ ... $$ for block (display) math. What the preprocessor will do
+  is convert $ ... $ to \\( ... \\) and $$ ... $$ to \\[ ... \\]. Note the double-
+  backslash, so "\\" is interpreted as "\" - if you want to use "\[ ... \]" directly
+  in your markdown, you need to write it as "\\[ ... \\]".
+  -->
+<script type="text/javascript">
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$']],
+    }
+  };
+</script>
+
+<!-- This is something I had in my old website - not sure it is needed. -->
+<!-- <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> -->
+
+<!-- Load mathjax. I use the chtml output processor so that math displays nicely in safari (svg is fuzzy). -->
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
