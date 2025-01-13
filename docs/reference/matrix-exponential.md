@@ -1,5 +1,5 @@
 ---
-title: The matrix exponential function
+title: Matrix exponential
 parent: Reference
 nav_order: 3
 ---

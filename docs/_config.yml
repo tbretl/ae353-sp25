@@ -22,3 +22,8 @@ callouts:
   result:
     title: Result
     color: green
+  warning:
+    title: Warning
+    color: red
+
+enable_copy_code_button: true
