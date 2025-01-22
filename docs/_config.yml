@@ -2,10 +2,13 @@ title: AE 353 Aerospace Control Systems
 description: The course website for Aerospace Control Systems.
 theme: just-the-docs
 
-url: https://tbretl.github.io/ae353-sp25
+define: &repository_url 'https://github.com/tbretl/ae353-sp25'
+
+github:
+  repository_url: *repository_url
 
 aux_links:
-  Template Repository: https://github.com/tbretl/ae353-sp25
+  AE 353 on GitHub: *repository_url
 
 math: mathjax
 
@@ -27,3 +30,5 @@ callouts:
     color: red
 
 enable_copy_code_button: true
+
+baseurl: '/ae353-sp23'
