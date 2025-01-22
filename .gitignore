@@ -19,6 +19,9 @@ vendor/
 
 # Ignore lock file
 Gemfile.lock
+
+# Ignore anything in directories with this name
+do_not_commit
 ########################################
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python
