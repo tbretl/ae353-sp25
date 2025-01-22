@@ -1,0 +1,20 @@
+name: ae353
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - notebook
+  - ipywidgets
+  - imageio
+  - imageio-ffmpeg
+  - pybullet
+  - pip
+  - git
+  - playsound
+  - pip:
+    - git+https://github.com/meshcat-dev/meshcat-python.git
+
