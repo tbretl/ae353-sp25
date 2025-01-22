@@ -119,6 +119,14 @@ You may be given opportunities to earn extra credit on various assignments. This
 
 You will earn three credit hours for completing this course. The [federal definition of a "credit hour"](https://provost.illinois.edu/policies/policies/courses/credit-hour-definition/) is an amount of work that reasonably approximates not less than one hour of instruction and two hours of out-of-class student work each week throughout the semester. Therefore, each of you should expect to spend about nine hours on this course each week, including the time you spend in lecture. If you find yourself spending much less or much more time and are struggling with time management, please **ask one of us for help**.
 
+## Absences and Late Work
+
+We expect you to attend all lectures. We also expect you to submit all assignments and take all exams on time.
+
+We also want you to stay home when you are ill or when you need time for yourself — to not participate in lecture, exams, or in-person group work under these circumstances. Similarly, we want you to take advantage of opportunities to interview for jobs and to participate in the sorts of events (academic conferences and competitions, intercollegiate athletics, etc.) that enrich your experience at university.
+
+Therefore, we will assume that you are acting in good faith and that absences and late work will be rare. We will handle them on a case-by-case basis. Please **ask one of us for help** when this situation arises.
+
 ## Academic Integrity
 
 You are encouraged to talk with all of your colleagues about all of your work this semester, so long as you acknowledge and cite the people with whom you talked. Materials submitted must be your own --- please refer to the [student code](https://studentcode.illinois.edu/) for a definition of [plagiarism](https://studentcode.illinois.edu/article1/part4/1-402/), which is an academic integrity infraction. Academic integrity allegations like plagiarism will be reported using the Faculty Academic Integrity Reporting (FAIR) system. Confirmed infractions may result in a zero grade for the corresponding assignment and, in some cases, a failing grade for the course. If you are unsure of what constitutes plagiarism or any other breach of academic integrity, please **ask one of us for help**.
