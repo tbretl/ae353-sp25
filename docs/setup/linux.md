@@ -1,26 +1,15 @@
 ---
-title: MacOS
+title: Linux
 parent: Setup
 ---
 
-# MacOS
+# Linux
 {: .no_toc }
 
 - TOC
 {:toc }
 
 ## Do these things once at the start of the semester
-
-### Install xcode command line tools
-
-Open a terminal and run this command, accepting all default options:
-
-```
-xcode-select --install
-```
-
-You may be asked to restart your computer during or after this process. Please do so.
-
 
 ### Install conda
 
@@ -45,29 +34,14 @@ If you see anything other than `anaconda-navigator not found`, then anaconda is 
 {: .note-title}
 > How to open a terminal
 >
-> When we say "open a terminal," what we mean is to start the **Terminal** application. Here is one way to do that:
-> 
-> * Click the Launchpad icon in the Dock.
-> * Type "Terminal" in the search field.
-> * Click Terminal.
-> 
-> See documentation on [Open Terminal](https://support.apple.com/guide/terminal/open-or-quit-terminal-apd5265185d-f365-44cb-8b09-71a064a42125/mac) for more information. Note that it is often helpful to have more than one terminal window open at the same time (or more than one tab in the same window).
+> When we say "open a terminal," what we mean is to start the **Terminal** application. One way to do that on many linux distributions is to use the keyboard shortcut **ctrl-alt-t**.
+>
+> Note that it is often helpful to have more than one terminal window open at the same time (or more than one tab in the same window).
 
 {: .note-title}
 > How to run a command
 > 
-> When we say "run a command," what we mean is to type something into the terminal window and press return. For example, suppose we said:
-> 
-> > run the command `pwd` to find your current working directory
-> 
-> You would type `pwd` into the terminal window and press return, with the result being something like this:
-> 
-> ```
-> (base) timothybretl@Timothys-MacBook-Pro ~ % pwd
-> /Users/timothybretl
-> ```
-> 
-> See documentation on [Execute commands and run tools in Terminal on Mac for more information](https://support.apple.com/guide/terminal/execute-commands-and-run-tools-apdb66b5242-0d18-49fc-9c47-a2498b7c91d5/mac). Also see the [Command Line Primer](https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html) for a list of frequently used commands.
+> When we say "run a command," what we mean is to type something into the terminal window and press enter.
 
 Second, to check if either Miniconda or Miniforge is installed, open a terminal and run the following command (it tries to update whatever is installed --- Miniconda or Miniforge --- to its latest version, something you should do from time to time anyway):
 
@@ -114,20 +88,7 @@ This process will take very little time. When it completes, you should find a ne
 > cd path/to/directory
 > ```
 > 
-> where "`path/to/directory`" is replaced by the location of the directory in which you want to work. One easy way way to find this location (i.e., the "path" to your directory) is by dragging its folder from the Finder into your terminal window (see documentation on [Drag items into a Terminal window on Mac](https://support.apple.com/guide/terminal/drag-items-into-a-terminal-window-trml106/mac)). In particular, I would first type "`cd `" (note the single trailing space):
-> 
-> ```
-> (base) timothybretl@Timothys-MacBook-Pro ~ % cd 
-> ```
-> 
-> Then, I would drag a folder into the terminal window and press return. For instance, suppose I had created a folder called `ae353-sp25` somewhere on my computer and dragged it in, then pressed return --- I would see something like this:
-> 
-> ```
-> (base) timothybretl@Timothys-MacBook-Pro ~ % cd /Users/timothybretl/Documents/ae353-sp25
-> (base) timothybretl@Timothys-MacBook-Pro ae353-sp25 %
-> ```
-> 
-> See documentation on [Specify files and folders in Terminal on Mac](https://support.apple.com/guide/terminal/specify-files-and-folders-apd3cf6fe02-3ec8-48f1-951f-866e52955fc8/mac) for other ways to specify the path to a directory.
+> where "`path/to/directory`" is replaced by the location of the directory in which you want to work. Since you are using linux, we assume you know all about this already. If that's not the case and you have questions, ask us for help.
 
 
 
@@ -147,7 +108,7 @@ Make sure that this process completes successfully. If you see any errors, ask f
 
 [Visual Studio Code](https://code.visualstudio.com/) (aka VS Code) is the cross-platform code editor that we recommend for use with this course.
 
-To install VS Code, follow the instructions for [Installation](https://code.visualstudio.com/docs/setup/mac#_installation) (being sure to remember to **drag VS Code into your Applications folder**) and for [Launching from the command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) from the [Visual Studio Code on macOS](https://code.visualstudio.com/docs/setup/mac) setup page. 
+To install VS Code, follow the instructions for [Installation](https://code.visualstudio.com/docs/setup/linux#_installation) from the [Visual Studio Code on Linux](https://code.visualstudio.com/docs/setup/linux) setup page. 
 
 To run VS Code, open a terminal, change the working directory to wherever you have your files, and run the command `code .` (i.e., the word "code", then a space, then a period).
 
