@@ -15,4 +15,11 @@ nav_order: 1
 Things to do after class:
 * Read the [syllabus](..).
 * Complete the [HCD pre-survey](https://go.aerospace.illinois.edu/AE353-Sp25-HCD-Survey-Pre) by 11:00am on Friday, January 24.
-* (Optional) Try to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
+* (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
+
+## 2025/01/24 (Models)
+
+Things to do after class:
+* Complete the [group preferences form](https://forms.illinois.edu/sec/1443554131) for the first design project by 11:00am on Monday, January 27.
+* Complete [HW1 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503751) by 11:00am on Wednesday, January 29.
+* (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
