@@ -16,7 +16,9 @@ Prof. Timothy Bretl
 * Email: <tbretl@illinois.edu>
 * Phone: 217-244-3126
 * [Website](https://bretl.csl.illinois.edu)
-* Office Hours: TBD
+* Office Hours:
+    * Tuesdays at 1:00pm-2:00pm in Talbot 319G
+    * Thursdays at 11:00am-12:00pm in Talbot 319G
 
 ## Teaching Assistants
 
