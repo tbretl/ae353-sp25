@@ -36,5 +36,5 @@ Things to do after class:
 
 Useful resources:
 * [Notes on models from class](../notes/20250124-models.pdf)
-* [Reference page on state space models](../reference/state-space-models.md)
+* [Reference page on state space models](../reference/state-space-models)
 * [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers)
