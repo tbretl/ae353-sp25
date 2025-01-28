@@ -40,6 +40,14 @@ Fourth, to install Miniforge (do this *only* if neither Miniconda nor Miniforge 
 
 * [Install Miniforge](https://github.com/conda-forge/miniforge/?tab=readme-ov-file#windows)
 
+{: .note-title}
+> What to do if you get a "dangerous site" warning
+>
+> If you are using Chrome to download Miniforge, you may get a "dangerous site" warning. Do the following things to bypass this warning:
+> * Click **More &vellip; > Downloads** in the top right corner of the browser window.
+> * Find the file you want to download.
+> * Click either **More &vellip; > Download dangerous file** (according to [google](https://support.google.com/chrome/answer/99020?hl=en&co=GENIE.Platform%3DDesktop#zippy=%2Cdownload-an-unsafe-file)) or **Keep dangerous file > Keep anyway** (according to [qwiqode](https://qwiqode.com/blogs/qwiq-tips-tricks/how-to-stop-google-chrome-from-blocking-your-download)).
+
 ### Install git
 
 Open a terminal.
