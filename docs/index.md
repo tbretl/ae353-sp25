@@ -24,11 +24,15 @@ Prof. Timothy Bretl
 
 Su Yeon Choi
 * Email: <suyeonc3@illinois.edu>
-* Office Hours: TBD
+* Office Hours:
+    * Wednesdays at 5:00pm-6:00pm in Talbot 2nd floor lounge
+    * Fridays at 12:00pm-1:00pm in Talbot 2nd floor lounge
 
 Jongwon Lee
 * Email: <jongwon5@illinois.edu>
-* Office Hours: TBD
+* Office Hours:
+    * Mondays at 4:00pm-6:00pm in Talbot 2nd floor lounge
+    * Thursdays at 1:00pm-3:00pm in Talbot 319M
 
 
 ## Course Assistants
