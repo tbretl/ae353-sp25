@@ -31,7 +31,7 @@ Su Yeon Choi
 Jongwon Lee
 * Email: <jongwon5@illinois.edu>
 * Office Hours:
-    * Mondays at 4:00pm-6:00pm in Talbot Aerolab
+    * Mondays at 4:00pm-6:00pm in Talbot 2nd floor lounge
     * Thursdays at 1:00pm-3:00pm in Talbot 319M
 
 
