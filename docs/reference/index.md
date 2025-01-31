@@ -3,7 +3,7 @@ layout: default
 title: Reference
 tagline: An invitation to aerospace control
 description: Supplementary notes and other reference material
-nav_order: 3
+nav_order: 4
 ---
 
 # Reference

@@ -2,6 +2,7 @@
 layout: default
 title: Setup
 description: How to download and run course code
+nav-order: 5
 ---
 
 # Setup
