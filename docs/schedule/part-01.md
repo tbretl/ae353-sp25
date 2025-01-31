@@ -27,7 +27,7 @@ Things to do after class:
 * Complete the [HCD pre-survey](https://go.aerospace.illinois.edu/AE353-Sp25-HCD-Survey-Pre) by 11:00am on Friday, January 24.
 * (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
 
-### 2025/01/24 (Models)
+### 2025/01/24 (Models, part 1)
 
 Things to do after class:
 * Complete the [group preferences form](https://forms.illinois.edu/sec/1443554131) for the first design project by 11:00am on Monday, January 27.
@@ -35,6 +35,19 @@ Things to do after class:
 * (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
 
 Useful resources:
-* [Notes on models from class](../notes/20250124-models.pdf)
+* [Notes on models from class](../notes/20250124-models-part1.pdf)
 * [Reference page on state space models](../reference/state-space-models)
 * [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers)
+
+### 2025/01/27 (Models, part 2)
+
+Useful resources:
+* [Notes on models from class](../notes/20250127-models-part2.pdf)
+* [Reference page on state space models](../reference/state-space-models)
+* [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers)
+
+### 2025/01/29 (Linearization)
+
+Useful resources:
+* [Notes on linearization from class](../notes/20250129-linearization.pdf)
+* [Reference page on state space models](../reference/state-space-models)
