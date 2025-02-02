@@ -12,7 +12,10 @@ nav_order: 1
 
 ## Notes
 
-* [2025/01/24 (Models)](../notes/20250124-models.pdf)
+* [2025/01/24 (Models, Part 1)](../notes/20250124-models-part1.pdf)
+* [2025/01/27 (Models, Part 2)](../notes/20250127-models-part2.pdf)
+* [2025/01/29 (Linearization)](../notes/20250129-linearization.pdf)
+* [2025/01/31 (Matrix Exponential)](../notes/20250131-matrix-exponential.pdf)
 
 ## Examples
 
@@ -35,19 +38,38 @@ Things to do after class:
 * (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
 
 Useful resources:
-* [Notes on models from class](../notes/20250124-models-part1.pdf)
-* [Reference page on state space models](../reference/state-space-models)
-* [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers)
+* [Notes on models from class](../notes/20250124-models-part1.pdf).
+* [Reference page on state space models](../reference/state-space-models).
+* [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers).
 
 ### 2025/01/27 (Models, part 2)
 
+Things to do after class:
+* Complete [HW2 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503752).
+* (Optional) Start trying to follow the ["Setup" instructions](../setup) so you can run course code on your own computer.
+
 Useful resources:
-* [Notes on models from class](../notes/20250127-models-part2.pdf)
-* [Reference page on state space models](../reference/state-space-models)
-* [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers)
+* [Notes on models from class](../notes/20250127-models-part2.pdf).
+* [Reference page on state space models](../reference/state-space-models).
+* [Chapter 3.2 (State Space Models)](https://fbswiki.org/wiki/index.php/System_Modeling) of our [reference text](https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers).
 
 ### 2025/01/29 (Linearization)
 
+Things to do after class:
+* Complete [HW3 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503753).
+* Follow the ["Setup" instructions](../setup) so you can run course code on your own computer. You will need this both to complete [HW3]((https://us.prairielearn.com/pl/course_instance/176602/assessment/2503753)) and to start [DP1](../projects/01-catbot) (your first design project).
+
 Useful resources:
-* [Notes on linearization from class](../notes/20250129-linearization.pdf)
-* [Reference page on state space models](../reference/state-space-models)
+* [Notes on linearization from class](../notes/20250129-linearization.pdf).
+* [Reference page on state space models](../reference/state-space-models).
+
+### 2025/01/31 (Matrix Exponential)
+
+Things to do after class:
+* Complete [HW4 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503754).
+* Contact your partner for [DP1](../projects/01-catbot) and get started!
+
+Useful resources:
+* [Notes on the matrix exponential function from class](../notes/20250131-matrix-exponential.pdf).
+* [Reference page on the matrix exponential function](../reference/matrix-exponential).
+
