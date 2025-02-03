@@ -16,6 +16,7 @@ nav_order: 1
 * [2025/01/27 (Models, Part 2)](../notes/20250127-models-part2.pdf)
 * [2025/01/29 (Linearization)](../notes/20250129-linearization.pdf)
 * [2025/01/31 (Matrix Exponential)](../notes/20250131-matrix-exponential.pdf)
+* [2025/02/03 (Stability)](../notes/20250203-stability.pdf)
 
 ## Examples
 
@@ -73,3 +74,12 @@ Useful resources:
 * [Notes on the matrix exponential function from class](../notes/20250131-matrix-exponential.pdf).
 * [Reference page on the matrix exponential function](../reference/matrix-exponential).
 
+### 2025/02/03 (Stability)
+
+Things to do after class:
+* Complete [HW5 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503755).
+* Keep working on [DP1](../projects/01-catbot).
+
+Useful resources:
+* [Notes on stability from class](../notes/20250203-stability.pdf).
+* [Reference page on stability](../reference/stability.md).
