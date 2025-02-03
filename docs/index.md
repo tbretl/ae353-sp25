@@ -47,6 +47,13 @@ Jongwon Lee
 * Justin Abel
 * Damian Thomas
 
+Help Sessions (in Talbot 2nd floor lounge):
+* Mondays at 12:00pm-1:00pm (Justin A., Ruben H., and Will S.) 
+* Tuesdays at 3:30pm-4:30pm (Adam C., Arna B.)
+* Wednesdays at 12:00pm-1:00pm (Justin A., Ruben H., and Will S.)
+* Wednesdays at 3:00pm-4:00pm (Shivani A.)
+* Fridays at 3:00pm-4:00pm (Adam C., Arna B., Ethan S., Shivani A.)
+
 
 ## Time and Place
 
