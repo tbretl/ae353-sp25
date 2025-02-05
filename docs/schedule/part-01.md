@@ -82,4 +82,14 @@ Things to do after class:
 
 Useful resources:
 * [Notes on stability from class](../notes/20250203-stability.pdf).
-* [Reference page on stability](../reference/stability.md).
+* [Reference page on stability](../reference/stability).
+
+### 2025/02/05 (Diagonalization)
+
+Things to do after class:
+* Complete [HW6 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503757).
+* Keep working on [DP1](../projects/01-catbot).
+
+Useful resources:
+* [Notes on diagonalization (part 1) from class](../notes/20250205-diagonalization-part1.pdf).
+* [Reference page on stability](../reference/stability).
