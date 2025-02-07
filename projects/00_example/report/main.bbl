@@ -1,0 +1,28 @@
+\begin{thebibliography}{4}
+\newcommand{\enquote}[1]{``#1''}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{\discretionary{}{}{}https://doi.org/#1}\else
+  \providecommand{\doi}[1]{\discretionary{}{}{}\urlstyle{rm}\url{https://doi.org/#1}}\fi
+
+\bibitem[{Markley and Crassidis(2014)}]{Markley2014}
+Markley, F.~L., and Crassidis, J.~L., \emph{Fundamentals of Spacecraft Attitude
+  Determination and Control}, Springer, New York, NY, 2014.
+
+\bibitem[{Astrom and Murray(2021)}]{Astrom2021}
+Astrom, K., and Murray, R., \emph{Feedback systems: an introduction for
+  scientists and engineers}, 2\textsuperscript{nd} ed., Princeton University
+  Press, 2021.
+
+\bibitem[{Coumans and Bai(2016--2021)}]{coumans2021}
+Coumans, E., and Bai, Y., \enquote{PyBullet, a Python module for physics
+  simulation for games, robotics and machine learning,}
+  \url{http://pybullet.org}, 2016--2021.
+
+\bibitem[{Bretl(2022)}]{ae353software}
+Bretl, T., \enquote{{AE353 (Spring, 2022) Code},}
+  \url{https://github.com/tbretl/ae353-sp22}, 2022.
+
+\end{thebibliography}
