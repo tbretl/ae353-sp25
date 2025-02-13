@@ -17,6 +17,9 @@ nav_order: 1
 * [2025/01/29 (Linearization)](../notes/20250129-linearization.pdf)
 * [2025/01/31 (Matrix Exponential)](../notes/20250131-matrix-exponential.pdf)
 * [2025/02/03 (Stability)](../notes/20250203-stability.pdf)
+* [2025/02/05 (Diagonalization, Part 1)](../notes/20250205-diagonalization-part1.pdf)
+* [2025/02/07 (Diagonalization, Part 2)](../notes/20250207-diagonalization-part2.pdf)
+* [2025/02/12 (Tracking)](../notes/20250212-tracking.pdf)
 
 ## Examples
 
@@ -84,7 +87,7 @@ Useful resources:
 * [Notes on stability from class](../notes/20250203-stability.pdf).
 * [Reference page on stability](../reference/stability).
 
-### 2025/02/05 (Diagonalization)
+### 2025/02/05 (Diagonalization, part 1)
 
 Things to do after class:
 * Complete [HW6 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503757).
@@ -93,3 +96,31 @@ Things to do after class:
 Useful resources:
 * [Notes on diagonalization (part 1) from class](../notes/20250205-diagonalization-part1.pdf).
 * [Reference page on stability](../reference/stability).
+
+### 2025/02/07 (Diagonalization, part 2)
+
+Things to do after class:
+* Complete [HW7 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503757).
+* Submit [DP1 Draft 1](../projects/01-catbot#draft-report-with-theory-by-1159pm-on-friday-february-7-first-draft).
+
+Useful resources:
+* [Notes on diagonalization (part 2) from class](../notes/20250207-diagonalization-part2.pdf).
+* [Reference page on stability](../reference/stability).
+
+### 2025/02/10 (Tracking, part 1)
+
+Things to do after class:
+* Keep working on [DP1](../projects/01-catbot).
+
+Useful resources:
+* [Notes on tracking from class](../notes/20250212-tracking.pdf).
+* [Reference page on tracking](../reference/tracking).
+
+### 2025/02/12 (Tracking, part 2)
+
+Things to do after class:
+* Keep working on [DP1](../projects/01-catbot).
+
+Useful resources:
+* [Notes on tracking from class](../notes/20250212-tracking.pdf).
+* [Reference page on tracking](../reference/tracking).
