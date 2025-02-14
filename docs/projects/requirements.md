@@ -124,6 +124,14 @@ These requirements may evolve during the semester.
 | S40 | The semicolon is used incorrectly. |
 
 
+## Figures and Tables
+
+| Label | Requirement |
+| --- | --- |
+| F1 | ... |
+| F2 | ... |
+
+
 ## Content
 
 | Label | Requirement |
