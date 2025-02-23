@@ -42,5 +42,5 @@ Things to do after class:
 * Submit [DP1 Reflection](../projects/01-catbot/#individual-reflection-by-1159pm-on-monday-february-24).
 
 Useful resources:
-* [Notes on eigenvalue placement from class](../notes/20250219-placement.pdf).
+* [Notes on Ackermann's method from class](../notes/20250221-acker-part1.pdf)
 * [Reference page on eigenvalue placement](../reference/eigenvalue-placement).
