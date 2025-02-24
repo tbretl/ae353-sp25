@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<robot name="flying-wing">
+  <material name="industrial-blue">
+    <color rgba="0.11372549019607843 0.34509803921568627 0.6549019607843137 1.0"/>
+  </material>
+  <material name="arches-blue">
+    <color rgba="0.0 0.6235294117647059 0.8313725490196079 1.0"/>
+  </material>
+  <material name="heritage-orange">
+    <color rgba="0.96078431 0.50980392 0.11764706 1.0"/>
+  </material>
+  <link name="base">
+    <visual>
+      <geometry>
+        <mesh filename="flying-wing.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="industrial-blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <mesh filename="flying-wing.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.56"/>
+      <inertia ixx="0.1147" ixy="0.0" ixz="0.0015" iyy="0.0576" iyz="0.0" izz="0.1712"/>
+    </inertial>
+  </link>
+</robot>

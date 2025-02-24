@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<robot name="platform">
+  <material name="industrial-blue">
+    <color rgba="0.11372549019607843 0.34509803921568627 0.6549019607843137 1" />
+  </material>
+
+  <material name="arches-blue">
+    <color rgba="0.0 0.6235294117647059 0.8313725490196079 1" />
+  </material>
+
+  <material name="heritage-orange">
+    <color rgba = "0.96078431 0.50980392 0.11764706 1" />
+  </material>
+
+  <material name="neutral">
+    <color rgba = "0.78431373, 0.77647059, 0.78039216, 1" />
+  </material>
+
+  <material name="harvest">
+    <color rgba = "0.98823529, 0.70196078, 0.08627451, 1" />
+  </material>
+
+  <link name="platform">
+    <inertial>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <mass value="0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+  			<mesh filename="cube.stl" scale="25 5 1"/>
+      </geometry>
+      <material name="harvest"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+  			<mesh filename="cube.stl" scale="25 5 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
