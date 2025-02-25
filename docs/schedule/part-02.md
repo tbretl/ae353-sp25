@@ -44,3 +44,13 @@ Things to do after class:
 Useful resources:
 * [Notes on Ackermann's method from class](../notes/20250221-acker-part1.pdf)
 * [Reference page on eigenvalue placement](../reference/eigenvalue-placement).
+
+### 2025/02/24 (Ackermann's method, part 2)
+
+Things to do after class:
+* Complete [HW10 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503739).
+* Start working on [DP2](../projects/02-zagi)
+
+Useful resources:
+* [Notes on Ackermann's method from class](../notes/20250224-acker-part2.pdf)
+* [Reference page on eigenvalue placement](../reference/eigenvalue-placement).
