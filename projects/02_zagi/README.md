@@ -1,0 +1,3 @@
+The `flying-wing.stl`, `elevon-right.stl`, and `elevon-left.stl` models are from the Zagi SC (Flying Wing) by the user `celiktse` on [Thingiverse](https://www.thingiverse.com/thing:4394492) and are licensed under Creative Commons - Attribution.
+
+The `cat-pilot.stl` model is from the Cute Kitten by the user `Paige66` on [Thingiverse](https://www.thingiverse.com/thing:1527877) and are licensed under Creative Commons - Attribution.
