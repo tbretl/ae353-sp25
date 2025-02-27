@@ -18,39 +18,33 @@ These requirements may evolve during the semester.
 
 | Label | Requirement |
 | --- | --- |
-| A1 | It was unclear which template you used (word or latex). Please choose one and follow it exactly. |
 | A2 | There should be no additional lines between paragraphs. |
 | A3 | All paragraphs should be indented the same amount, exactly the amount specified in the template. |
 | A4 | Symbols in the nomenclature must be listed with units. |
 | A5 | You must choose either the word or latex template from AIAA and follow it exactly. |
 | A8 | All equations must have one blank line above and below them. |
-| A10 | Sources listed in the "References" section must be referenced within the text at least once to avoid redundancy. |
-| A11 | All external works referenced or utilized must be properly cited and listed in the "References" section in accordance with AIAA guidelines. (https://tinyurl.com/52tdx7wz) |
-| A12 | Do not use a screenshot of code. |
-| A13 | Figures must follow proper AIAA style. |
-| A14 | Move the code to the appendix or use pseudocode format if it is the best way to describe the algorithm. |
-| A15 | Visual errors must not be present. Please use either the word or latex template and follow it exactly. |
-| A17 | Code cannot be pasted as text and must be displayed in a code block. |
-| A18 | Equations or code in the "Appendix" section must be given proper and descriptive titles. |
+| A10 | Sources listed in the "References" section must be referenced within the text at least once. |
+| A11 | If any work other than your own is used in your report (i.e. lecture notes, code, course website, textbook, articles, etc.), it must be cited in the References section. |
+| A15 | There must not be watermarks or annotations (e.g., revision marks that result from tracking changes in Microsoft Word) that are not part of the AIAA template. |
+| A17 | Code must be displayed as text in a code block (i.e., set apart from the rest of the text in a monospace font) and not, for example, as a screenshot or as text mixed in with the rest of the report. (Think carefully before you include code in your report, however — it is often better to share code in a different place, for example in the notebook that you are asked to submit as one of your final deliverables). |
+| A18 | Equations or code in the "Appendix" section must be given "definitive titles." In other words, equation titles in the Appendix must not be a complete sentence, must have only the first word capitalized, and must have no period or other punctuation at the end. (Example: "Equation 1  Dynamics of the system.") |
 | A19 | Do not use images or screenshots of equations. |
 | A20 | Equations must be centered. |
 | A21 | Equations must be referenced as "Eq." within a sentence, or as "Equation" at the beginning of a sentence. |
-| A23 | All text in the body of your report must be fully justified. |
-| A24 | The section order must follow the proper AIAA section order: Abstract, Nomenclature, Introduction, and so on. |
-| A25 | Each section title should be preceded by a Roman numeral corresponding to its order in the document. |
+| A23 | All text in the body of your report must be fully justified (aligned evenly along both the left and right margins). |
+| A24 | Sections must be ordered as in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
+| A25 | The title of each section (other than the Abstract, Appendix, Acknowledgements, and References) should be preceded by a Roman numeral corresponding to its order in the document. |
 | A26 | Each page must be numbered. |
-| A27 | The abstract should have neither a number nor a title. |
 | A28 | Each reference must be numbered. |
 | A29 | All body text must be in the same font size. |
-| A31 | The entire paper should be formatted using Times New Roman font. |
-| A32 | Bolding of the headings should be consistent throughout the report.  |
-| A33 | Sources in the references section must be cited in AIAA format.  |
-| A36 | There should be a space between figure captions and paragraphs |
-| A37 | There should not be a space between headings and the following text.  |
-| A39 | Sources must be properly referenced in the text.  |
-| A40 | Insert a space between the section number and the title. |
-| A41 | There should be no additional lines between sections.  |
+| A31 | Fonts for all text in the report (including section titles, for example) must be exactly the same — in terms of the name, size, and style — as in the AIAA template. |
+| A36 | There must be an empty line between figure captions and paragraphs |
+| A37 | There must not be an empty line between headings and the following text.  |
+| A39 | Sources referenced in-text must follow the formats of "It is shown by Smith [4] ...", "The effect of ... should be taken into account [4].", "For example, see Refs. [6, 7].", "Further documentation can be found in [8-10].", or "This procedure was proposed by Gelb [11, p. 250]." |
 | A42 | Use "Section X" when referring to a specific section. |
+| A43 | Unlike all other sections, the Abstract, Appendix, Acknowledgements, and References sections must not be numbered. |
+| A44 | There must be no broken symbols or equations with rendering issues. |
+| A45 | Reports must be at most six pages. |
 
 
 ## Mathematics
@@ -60,12 +54,12 @@ These requirements may evolve during the semester.
 | M1 | All equations should be numbered in parentheses flush right. |
 | M2 | The number of significant figures (or digits after the decimal place) should be both consistent and reasonable. |
 | M3 | Inline equations must not be taller than the standard line height. If they are, make them block equations. |
-| M4 | Use symbols for greek letters rather than spelling them out. |
-| M5 | Write variables side-by-side to denote multiplication. |
+| M4 | Use symbols for Greek letters rather than spelling them out. |
+| M5 | Write variables side-by-side to denote multiplication. Ex: (C = AB instead of C = A*B). |
 | M6 | Variables should be italic. |
 | M7 | Put indices, names, etc., of variables in subscripts or superscripts. |
 | M8 | Words in subscripts or superscripts should be non-italic. |
-| M9 | Function names (e.g., “sin” and “cos”) should be non-italic. |
+| M9 | Remove unnecessary space between the equal sign and the variables/constants to maintain proper alignment and formatting. |
 | M10 | Dots should be centered over variables, not also over subscripts or superscripts. |
 | M11 | Variables should be denoted by symbols and not by names that are used in python code. |
 | M12 | Names of units (whether or not they are abbreviated) should be non-italic. |
@@ -75,24 +69,20 @@ These requirements may evolve during the semester.
 | M16 | Units are incorrect. |
 | M17 | Matrix brackets are missing. |
 | M18 | Units are missing. |
-| M19 | Linearization is incorrect. |
-| M20 | Equations are presented in an unconventional way. |
 | M21 | Use "r x c" instead of "r * c" when describing the size of a matrix. |
 | M22 | Use an overdot notation instead of a prime (apostrophe) for derivatives. |
-| M23 | Do not use nested (double) brackets. Consolidate the brackets into a single set or otherwise clarify more your vector structure. |
+| M23 | Do not use nested (double) brackets. Consolidate the brackets into a single set (Ex. x  = [q] instead of [x] = [[q]]). |
 | M24 | Transposed matrices need a T superscript. |
 | M25 | Remove unnecessary space between the equal sign and the variables/constants to maintain proper alignment and formatting. |
-| M26 | The "q dot" term is missing. |
-| M27 | Undefined variable(s) or constant(s). |
-| M28 | The term is used incorrectly. |
-| M29 | The term should be "q dot." |
-| M30 | Use consistent notation. |
-| M31 | Multiplication of units must include either a dot or space between variables. |
+| M30 | Use consistent notation. Here are some examples: (1) if a variable "u" is italic and non-bold in one part of your report, it should not be non-italic and bold in another part of your report; (2) do not use the same variable to denote two different things. |
+| M31 | Multiplication of units must include either a dot or space between variables. Ex: (ft • lb or ft lb not ftlb or ft*lb) |
 | M32 | The plus-minus symbol (±) is used incorrectly. |
 | M33 | Use appropriate notation (e.g., summation) instead of writing equations in text form. |
 | M34 | Elements inside matrix brackets should not be in bold font, as they represent scalar values. |
-| M35 | Close the parenthesis to maintain correct formatting. |
-| M36 | Use a fraction instead of in-line division would improve readability. |
+| M35 | Parentheses must be closed |
+| M38 | There must be enough space between elements of a matrix or vector so that it is clear they are separate elements and are not variables being multiplied. |
+| M39 | Either present eigenvalues as elements of a list (e.g., "p = [-1 + 2j, -1 - 2j]") or as separate, named values (e.g., "s_1 = -1 + 2j \qquad s_2 = -1 - 2j") and not as elements of a vector (e.g., "p = \begin{bmatrix} -1 + 2j & -1 - 2j \end{bmatrix}"). |
+| M40 | Equations must not have typos. |
 
 
 ## Style
@@ -107,15 +97,14 @@ These requirements may evolve during the semester.
 | S6 | Only indent the first line of each paragraph. |
 | S7 | Block equations are part of the text and are subject to the same rules for grammar and punctuation as everything else. |
 | S8 | There should be space between items (i.e., after each comma) in a comma-delimited list. |
-| S9 | Capitalization must be correct. |
+| S9 | Capitalization must be correct (e.g., do not capitalize words unnecessarily, always capitalize the first word of a sentence, etc.). |
 | S10 | Spelling must be correct. |
 | S11 | What comes before a colon or a semicolon must be a complete sentence. |
 | S12 | Missing comma. |
 | S13 | Verb tense must be correct. |
 | S14 | Do not put the word in quotations. |
-| S15 | Incorrect use of a colon. |
-| S16 | Avoid using a Roman name in place of a predefined Greek letter. |
-| S17 | Do not specify the exact package or function in the main text. Instead, briefly mention that you used it and add a reference (or footnote) for the package or function. |
+| S15 | Colons should generally only be used when introducing a list (if appropriate), quote, or incomplete clause. |
+| S16 | Do not use a Roman name in place of a predefined Greek letter. |
 | S19 | The word "this" or "they" should be followed by a noun (e.g., "this robot" or "this result"). |
 | S20 | Do not denote items in a list with a "/." |
 | S21 | Capitalization should be consistent. |
@@ -134,10 +123,9 @@ These requirements may evolve during the semester.
 | S35 | There is a missing preposition. |
 | S36 | Use parentheses only when the enclosed term matches the preceding term. |
 | S38 | Standard text should not be in bold. |
-| S39 | This is an improper use of parentheses around a word or a phrase. |
-| S40 | The semicolon is used incorrectly. |
 | S41 | The word "and" is missing after the last item of a list.  |
 | S42 | Whole numbers under ten should be spelled out (e.g., "two" instead of "2"). |
+| S43 | Missing word. |
 | S44 | The phrase is non-standard. Replace it with a standard expression (e.g., "with regard to" or "regarding" instead of "in regards to"). |
 | S45 | This is a comma splice.  |
 | S46 | There should be no extraneous words that compromise the meaning of the intended statement (e.g. "I had to go at to the store.")  |
@@ -146,8 +134,8 @@ These requirements may evolve during the semester.
 | S50 | There should be a space between the end of a sentence or noun and its reference. |
 | S52 | "That" is required for grammatical correctness and clarity when introducing a noun clause. |
 | S53 | Do not use "had" when the simple past tense is clear and correct. |
-| S54 | Apostrophes must be included to indicate possession. |
 | S55 | Correct use of the possessive case must be used.  |
+| S57 | Nouns and pronouns should agree in terms of grammatical number (e.g., "robot" with "it" or "robots" with "they".) |
 
 
 ## Figures and Tables
@@ -165,7 +153,7 @@ These requirements may evolve during the semester.
 | F10 | The caption of a table must be above the table rather than below the table. |
 | F11 | Table captions must be "definitive titles." In other words, unlike figure captions, table captions must not be a complete sentence, must have only the first word capitalized, and must have no period or other punctuation at the end. (Example: "Table 1  Buckling results for blade-stiffened panels") |
 | F12 | Use both different colors and different line styles to distinguish between lines in the same plot. Doing this makes plots readable for people with color blindness and makes plots more readable for everyone else. |
-| F13 | All lines in a plot should have a label in the legend. |
+| F13 | All lines in a plot should be labeled. |
 | F14 | If two different lines in a plot show upper and lower bounds on the same quantity (e.g., minimum and maximum torque), these lines should have the same style and should correspond to only one label in the legend (rather than two labels, one for each line). |
 | F15 | Side-by-side plots — particularly ones that show results for comparison (e.g., results for different choices of initial condition) — should be the same size and should have the same axis limits. |
 | F16 | Subfigures should be referred to by letter (e.g., (a), (b), etc.) and not by position (e.g., "left" or "right"). |
@@ -175,6 +163,10 @@ These requirements may evolve during the semester.
 | F20 | The font size of legends, axes, and captions should be both readable and close to the standard body text size. |
 | F21 | Tables should have lines to clearly separate each entry. |
 | F22 | The font of figure and table captions must only be bolded and the same size as standard body text. |
+| F23 | Units must be provided, either in a legend or an axis label. |
+| F24 | The caption of a table must be centered. |
+| F25 | References in the text should not be made to figures or tables that do not exist in the report. |
+| F26 | References in the text should be made to the figure or table that contains the information being discussed. |
 
 
 ## Content
@@ -183,71 +175,44 @@ These requirements may evolve during the semester.
 | --- | --- |
 | C1 | When describing performance, either use words that are widely understood to have a precise technical meaning or provide a definition yourself (i.e., say what you mean). |
 | C2 | Use an italic upper-case "K" to denote the gain matrix for linear state feedback (unless you clearly explain some alternative notation). |
-| C3 | Incorrect description of the system to be controlled. |
 | C4 | Specify both the "of what" and "with respect to what" when talking about derivatives (including Jacobians). |
-| C5 | The abstract should provide a summary of key results (usually quantitative) that were obtained. Placeholders can be used in drafts when final results aren't available yet. |
+| C5 | The abstract should provide a summary of key quantitative results (with actual numbers) that were obtained. Placeholders can be used in drafts when final results aren't available yet. |
 | C6 | Do not provide unnecessary information about the computer, programming language, application, etc., that you used for implementation. |
-| C7 | Theory should be in the Theory section, not also in the Introduction. |
-| C8 | Provide enough information about the system to be controlled (including a clear description, a schematic, and a citation, for example) so that readers will understand even if they have not previously seen or worked with that system. |
+| C7 | Theory should be in the Theory section, not also in the Introduction, the Experimental Methods, etc. |
+| C8 | Provide enough information about the system to be controlled — including a clear description, a schematic, and a citation, for example — so that readers will understand even if they have not previously seen or worked with that system. Make sure all information provided is correct. (Note that it is usually best to describe the system exactly once, early in your report.) |
 | C9 | Linear state feedback should be negative (i.e., "-Kx" and not "Kx") unless you clearly explain why you are taking a non-standard approach. |
-| C10 | Either follow the four-step process to put a system in state space form that is described on the reference pages of the course website (in exactly the order that is suggested) or clearly explain and justify whatever alternative approach you are taking. |
+| C10 | We strongly recommend that you follow the four-step process described on the course website (see Reference > State space models > How do I put a system in state space form?) to linearize the equations of motion. The order of this process, in particular, is important. For example, you cannot define the state "x" or input "u" of the state-space model without having first chosen an equilibrium point, because "x" and "u" are defined in terms of this equilibrium point. If you choose not to follow this four-step process, you must explain clearly and justify rigorously whatever alternative process you are using. |
 | C11 | Our method of deriving a state space model requires linearizing about an equilibrium point that is both constant and known in advance. Any other method should be clearly explained and justified. |
-| C12 | Justify your choice of equilibrium point (making clear if other equilibrium points exist or if yours was the only possible choice). |
+| C12 | You must justify your choice of equilibrium point (making clear if other equilibrium points exist or if yours was the only possible choice). |
 | C13 | Be specific enough about your methods so that another engineer could reproduce them. |
 | C14 | Only the real or imaginary part of an eigenvalue can be positive or negative, not the eigenvalue itself. |
-| C15 | The choice of the gain matrix K and/or the rationale behind it are missing. |
-| C16 | The abstract should be self-contained and provide a clear yet concise description of the purpose of the work, the methods applied, and the results (preferably quantitative), along with the conclusion presented objectively. |
-| C17 | Do not provide unnecessary information for the introduction. |
-| C18 | Incorrect conclusion that the system won't be asymptotically stable. |
-| C19 | Specify what the new term refers to or consider adding a reference to support the example. |
-| C20 | The provided feedback controller doesn't have outputs. |
-| C21 | A nonlinear function cannot be identical to its linearized function. |
-| C22 | Do not use F as a linearized function since it's already used for F(q). |
-| C23 | Introduce a new variable before using it unless it is defined in the nomenclature. |
-| C24 | Use specific criteria instead of subjective terms (i.e., good or bad). |
-| C25 | Do not provide too much details about the following sections in the introduction. |
-| C26 | In general, do not restate what has been said before unless summarizing main points in the conclusion. |
-| C28 | Describe what A and B refer to by using widely accepted academic terms like “system matrix” and “input matrix”, or explain their physical meaning, rather than just calling them “matrices”. |
-| C29 | Introduction should prepare the reader to understand the rest of your report and how it fits within a broader context. |
-| C30 | Explicitly state values being plugged in. |
-| C31 | Do not explain specific system details in the abstract without context, as it may confuse readers unfamiliar with the system. |
-| C33 | x and u are the state space vector and input vector, not m and n. |
-| C34 | The abstract does not align with the main body. (e.g., Some results mentioned in the abstract are not presented in the experimental results section.) |
-| C35 | This content would go in the Theory section rather than Experimental Results. |
-| C36 | Provide more details about the method you introduce, including the underlying theory. |
-| C37 | Nomenclature should include all relevant variables and their respective physical definitions.  |
-| C38 | Use a widely accepted notation or define any new symbols clearly. |
-| C39 | q is not position. It could be generalized position. |
-| C40 | Definition of a variable is duplicated in the nomenclature. |
-| C41 | Justify why the new term needs to be introduced (consider adding a reference to support, for instance). |
-| C42 | Incomplete sentence or contents. |
+| C15 | You must justify your choice of gain matrix. |
+| C23 | Variables must be defined in the text before they are used, even if they are listed in the Nomenclature (that list is for reference — it collects all of the variables that are defined and used in the rest of the report). |
+| C24 | Use specific criteria instead of subjective terms (e.g., good or bad, best or worst, etc.). |
+| C30 | When plugging numerical values into a symbolic expression, either say what those values are (i.e., give the actual numbers) or provide a reference to where those values can be found (e.g., the course website, a github repository, code submitted as one of your final deliverables, etc.). |
+| C33 | Our convention is to denote the state and input of the nonlinear system by "m" and "n" and to denote the state and input of the linearized system (i.e., the state-space model) by "x" and "u". If you use a different convention, you must make that clear. |
+| C34 | The abstract must not present results that are not also described in the Results and Discussioin section. |
+| C36 | Either clearly describe and rigorously justify any methods used or cite a reference that does this for you. Note that it is almost always better to cite a reference, if the method is not new and if a reference is available. In particular, it is likely impossible to provide a complete description of a method like eigenvalue placement or LQR in the context of a 6-page report (the reference page on the course website provides a minimally complete description, which is already too much for you to include) — use a citation for these sorts of things. |
+| C37 | Nomenclature must list all variables used in the report along with their units (unless a variable is dimensionless). |
+| C40 | Do not define any given variable more than once in the Nomenclature. |
 | C43 | Incorrect or incomplete derivation of the ordinary differential equations describing the system. |
-| C44 | Do not include any unfinished text in the report. |
-| C45 | Explain why the eigenvalues must be real and should not have an imaginary part. |
+| C45 | You must justify your choice of eigenvalue locations. (Eigenvalues must have negative real part and — if they have non-zero imaginary part — must be in complex conjugate pairs, but otherwise their location is an engineering decision. They could have zero or non-zero imaginary part, they could have a real part that is more negative or less negative, they could all be at the same location or could be at different locations, etc.)  |
 | C46 | The gain matrix must have as many rows as there are inputs and as many columns as there are states. |
 | C47 | Experiments must be described in enough detail that they could be understood and repeated by a colleague. |
-| C48 | The system to be controlled should be described in the Introduction and/or Theory sections and not in later sections. |
 | C49 | The length of each simulation must be stated. |
 | C50 | The initial conditions for each simulation must be stated. |
 | C51 | While it may be appropriate to describe experiments that were used to iterate on your control design, there must be a comprehensive set of experiments that validate your final control design (where "final" means "after you have stopped making changes"). |
-| C52 | Results from many experiments should be used to support an argument that your controller "works" (however you have chosen to define that word). Results from only one experiment or a small number of experiments do not provide sufficient evidence in general. |
+| C52 | Quantitative results from many experiments — presented in figures and/or tables — should be used to support claims made in your report, for example that your controller "works" (however you have chosen to define that word). Results from only one experiment or a small number of experiments do not provide sufficient evidence in general. |
 | C53 | You should make clear what "success" means (i.e., what it means for your controller to "work"), for example by providing a quantitative measure of performance. |
 | C54 | Words like "optimal," "optimized," "optimization," etc., must not be used without first defining a quantity that is being maximized (e.g., a reward) or minimized (e.g., a cost). |
-| C55 | Results should be in the Results section, not also in the Experiments. |
 | C56 | Do not use deterministic or absolute terms (e.g., trivial, absolute, always) unless you have indisputable evidence to support them. |
-| C58 | Specify the conditions under which this situation occurs (e.g., if the robot moves too slowly to reach the cat pilot’s landing target, what were the robot’s position and the cat’s target distance?). |
-| C59 | Discussion should be in the Discussion section, not also in the Conclusion. |
-| C60 | Indicate the number of simulations performed. |
-| C62 | The conclusion should summarize key findings, their significance, study limitations, and, if applicable, suggestions for future work. Placeholders can be used in drafts if final insights are still being refined. |
-| C63 | Specify the goal of the "future improvement", such as enhancing specific criteria or addressing other relevant aspects. |
-| C65 | Discussion should be in the Discussion section, not also in the Experiments. |
-| C66 | Do not provide unnecessary information for the conclusion. |
-| C67 | Clarify what the quantity refers to (e.g., whether it pertains to pitch or pitch rate). |
-| C68 | Do not draw conclusions that are not supported by the findings presented in the Results and Discussion section. |
-| C69 | Clearly describe your methodology instead of vague statements like 'writing more code' or 'doing calculations,' and consider adding a reference for clarity. |
-| C71 | The equation does not align with the description provided in the text. |
-| C72 | Do not list eigenvalues as a vector. |
-| C73 | The results presented do not match what the Experiments section describes. |
-| C74 | Provide quantitative evidence for your experimental results, such as plots and tables. |
+| C60 | The number of simulations performed must be stated, particularly if these simulations are used to produce aggregate results (e.g., mean or standard deviation). |
+| C65 | Experimental Methods should describe the experiments that were performed and should not present results. Results and Discussion should present the results that were obtained and should not describe the experiments. |
+| C69 | Be specific about methods used. (For example, instead of saying that you "did calculations," say what you calculated and how you did it. Similarly, instead of saying that you "wrote code," say what it was that you implemented.) |
+| C71 | Equations must be consistent with what is described in the text. (For example, if some eigenvalues in an equation do not have negative real part, the text should not claim that all eigenvalues have negative real part.) |
+| C73 | If you present a result in Results and Discussion, you must describe the experiment that produced it in Experimental Methods. If you describe an experiment in Experimental Methods, you must present the results of that experiment in Results and Discussion. |
+| C75 | Clearly define non-standard functions before they are used (e.g., "\lambda (A - BK)"). |
+| C76 | If you apply LQR to design a controller, you must state and justify your choice of weights Q and R. (Remember that LQR computes K given Q and R — it doesn't compute Q and R or otherwise tell you what these weights should be.) |
+| C77 | Incorrect or incomplete derivation of the Jacobian for system linearization. |
 
 
