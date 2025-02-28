@@ -33,7 +33,7 @@ These requirements may evolve during the semester.
 | A21 | Equations must be referenced as "Eq." within a sentence, or as "Equation" at the beginning of a sentence. |
 | A23 | All text in the body of your report must be fully justified (aligned evenly along both the left and right margins). |
 | A24 | Sections must be ordered as in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
-| A25 | The title of each section (other than the Abstract, Appendix, Acknowledgements, and References) should be preceded by a Roman numeral corresponding to its order in the document. |
+| A25 | The title of each section (other than the Appendix, Acknowledgements, and References — as well as the Abstract, which has no title) should be preceded by a Roman numeral corresponding to its order in the document. |
 | A26 | Each page must be numbered. |
 | A28 | Each reference must be numbered. |
 | A29 | All body text must be in the same font size. |
@@ -42,9 +42,11 @@ These requirements may evolve during the semester.
 | A37 | There must not be an empty line between headings and the following text.  |
 | A39 | Sources referenced in-text must follow the formats of "It is shown by Smith [4] ...", "The effect of ... should be taken into account [4].", "For example, see Refs. [6, 7].", "Further documentation can be found in [8-10].", or "This procedure was proposed by Gelb [11, p. 250]." |
 | A42 | Use "Section X" when referring to a specific section. |
-| A43 | Unlike all other sections, the Abstract, Appendix, Acknowledgements, and References sections must not be numbered. |
+| A43 | Unlike all other sections, (1) the Abstract must be neither titled nor numbered, and (2) the Appendix, Acknowledgements, and References must not be numbered. |
 | A44 | There must be no broken symbols or equations with rendering issues. |
 | A45 | Reports must be at most six pages. |
+| A46 | Both the right and left margins of the abstract must be half an inch larger than the rest of the document, exactly as in the template. |
+| A47 | Abstract text must be bold. |
 
 
 ## Mathematics
@@ -136,6 +138,7 @@ These requirements may evolve during the semester.
 | S53 | Do not use "had" when the simple past tense is clear and correct. |
 | S55 | Correct use of the possessive case must be used.  |
 | S57 | Nouns and pronouns should agree in terms of grammatical number (e.g., "robot" with "it" or "robots" with "they".) |
+| S58 | Block equations must be part of a sentence. (On its own, a block equation would be a sentence fragment.) |
 
 
 ## Figures and Tables
@@ -160,7 +163,7 @@ These requirements may evolve during the semester.
 | F17 | Plots must be either vectorized images (e.g., PDF or SVG) or high-resolution rasterized images (e.g., PNG) and must not be screenshots or other low-resolution images. |
 | F18 | References to figures and tables in the text should be by number (e.g., "Fig. 1", or "Figure 1" at the start of a sentence) and not by location (e.g., "the above figure"). |
 | F19 | Each figure or table must be numbered in the order of their appearance in the document. |
-| F20 | The font size of legends, axes, and captions should be both readable and close to the standard body text size. |
+| F20 | The font size of all text in a plot (e.g., legends, axis labels, etc.) should be both readable and close to the standard body text size. |
 | F21 | Tables should have lines to clearly separate each entry. |
 | F22 | The font of figure and table captions must only be bolded and the same size as standard body text. |
 | F23 | Units must be provided, either in a legend or an axis label. |
