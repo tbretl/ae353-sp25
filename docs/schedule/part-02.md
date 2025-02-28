@@ -54,3 +54,22 @@ Things to do after class:
 Useful resources:
 * [Notes on Ackermann's method from class](../notes/20250224-acker-part2.pdf)
 * [Reference page on eigenvalue placement](../reference/eigenvalue-placement).
+
+### 2025/02/26 (Controllability)
+
+Things to do after class:
+* Keep working on [DP2](../projects/02-zagi)
+
+Useful resources:
+* [Examples of systems that are and are not controllable](https://github.com/tbretl/ae353-sp25/tree/main/examples/20250226)
+* [Reference page on eigenvalue placement](../reference/eigenvalue-placement).
+
+### 2025/02/28 (Finding equilibrium points + introduction to LQR)
+
+Things to do after class:
+* Submit [DP2 Draft 1](../projects/02-zagi#first-draft)
+
+Useful resources:
+* [Example of a numerical method to find equilibrium points](https://github.com/tbretl/ae353-sp25/tree/main/examples/20250228)
+* [Example of using LQR for control design](https://github.com/tbretl/ae353-sp25/tree/main/examples/20250228)
+* [Reference page on LQR](../reference/optimal-controllers)
