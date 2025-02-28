@@ -51,11 +51,17 @@ Our goal is to complete our review within five days after the deadline for submi
 
 Our review of your report will be the same as our review of your drafts, with the same schedule for providing feedback. Your grade will be based on the satisfaction of requirements. You will receive a score for each of the five categories:
 
-* (20%) Acceptable. We did not find mistakes.
-* (10%) Unacceptable. We found mistakes.
+* (20%) Acceptable. We did found no more than $N$ mistakes.
+* (10%) Unacceptable. We found more than $N$ mistakes.
 * (0%) Completely unacceptable. Either we found so many mistakes that we were unable to evaluate the report, or large parts of the report were missing.
 
-Your grade will be the sum of these five scores.
+The maximum number $N$ of mistakes allowed in each category is as follows:
+
+| (A) AIAA Format | (M) Mathematics | (S) Style | (F) Figures and Tables | (C) Content |
+| :-: | :-: | :-: | :-: | :-: |
+| 0 | 3 | 3 | 3 | 3 |
+
+Your grade will be the sum of your scores in the five categories.
 
 ## Appeals
 
