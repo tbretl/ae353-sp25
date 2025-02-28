@@ -50,6 +50,9 @@ $$
 &= N(\psi, \theta, \phi) \begin{bmatrix} w_x \\ w_y \\ w_z \end{bmatrix} \\
 \begin{bmatrix} \dot{v}_x \\ \dot{v}_y \\ \dot{v}_z \end{bmatrix}
 &= \dfrac{1}{m} \left(
+  R^W_B(\psi, \theta, \phi)
+  \begin{bmatrix} 0 \\ 0 \\ mg \end{bmatrix}
+  +
   \begin{bmatrix}
     f_x(v_x, v_y, v_z, w_x, w_y, w_z, \delta_r, \delta_l) \\
     f_y(v_x, v_y, v_z, w_x, w_y, w_z, \delta_r, \delta_l) \\
