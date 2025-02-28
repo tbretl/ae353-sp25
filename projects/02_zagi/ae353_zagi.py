@@ -51,11 +51,11 @@ class Simulator:
         self.params = {
             'g': 9.81,               # Gravity (m/s²)
             'm': 1.56,               # Mass of the UAV (kg)
-            'J_x': 0.0411,           # Moment of inertia about x-axis (kg·m²)
-            'J_y': 0.0473,           # Moment of inertia about y-axis (kg·m²)
-            'J_z': 0.0896,           # Moment of inertia about z-axis (kg·m²)
-            'J_xz': 0.0024,          # Product of inertia (kg·m²)
-
+            'J_x': 0.1147,           # Moment of inertia about x-axis (kg·m²) [UPDATED 02/28/2025]
+            'J_y': 0.0576,           # Moment of inertia about y-axis (kg·m²) [UPDATED 02/28/2025]
+            'J_z': 0.1712,           # Moment of inertia about z-axis (kg·m²) [UPDATED 02/28/2025]
+            'J_xz': 0.0015,          # Product of inertia (kg·m²)             [UPDATED 02/28/2025]
+            
             'S': 0.4696,             # Wing area (m²)
             'b': 1.4224,             # Wingspan (m)
             'c': 0.3302,             # Mean aerodynamic chord (m)

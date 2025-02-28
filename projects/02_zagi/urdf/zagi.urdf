@@ -24,7 +24,7 @@
     <inertial>
       <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
       <mass value="1.56"/>
-      <inertia ixx="0.0411" ixy="0.0" ixz="0.0024" iyy="0.0473" iyz="0.0" izz="0.0896"/>
+      <inertia ixx="0.1147" ixy="0.0" ixz="0.0015" iyy="0.0576" iyz="0.0" izz="0.1712"/>
     </inertial>
   </link>
 </robot>
