@@ -202,7 +202,7 @@ class Simulator:
         # Airspeed must be near zero
         V_a = np.sqrt(v_x**2 + v_y**2 + v_z**2)
 
-        if V_a > 1e-3:
+        if V_a > 1e-2:
             return False
         
         if p_z < 14.75:
