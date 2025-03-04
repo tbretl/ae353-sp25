@@ -14,7 +14,7 @@ This page describes the way in which your drafts and reports will be evaluated.
 
 ## Review (drafts)
 
-We will read your draft as a team and check that it satisfies all [requirements](requirements). We will mark **only the first instance** of any mistake that we find with an annotation that has both the label (e.g., "A4") and the text (e.g., "Symbols in the nomenclature must be listed with units.") of the requirement that was not satisfied. The first letter of the label gives the category of the requirement:
+We will read your draft as a team and check that it satisfies all [requirements](report-requirements). We will mark **only the first instance** of any mistake that we find with an annotation that has both the label (e.g., "A4") and the text (e.g., "Symbols in the nomenclature must be listed with units.") of the requirement that was not satisfied. The first letter of the label gives the category of the requirement:
 
 * (A) AIAA Format
 * (M) Mathematics

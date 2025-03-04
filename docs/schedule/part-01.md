@@ -131,7 +131,7 @@ Things to do after class:
 * Submit [DP1 Draft 2](../projects/01-catbot/#draft-report-with-results-by-1159pm-on-friday-february-14-second-draft).
 
 Useful resources:
-* [Report requirements](../projects/requirements).
+* [Report requirements](../projects/report-requirements).
 * [Report review process](../projects/process).
 * [Example report]({{ site.github.repository_url }}/tree/main/projects/00_example)
 
