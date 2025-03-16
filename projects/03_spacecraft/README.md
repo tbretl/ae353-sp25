@@ -1,0 +1,5 @@
+The `space-cat.stl` model is from two sources:
+* The cat itself is the Cute Kitten by the user `Paige66` on [Thingiverse](https://www.thingiverse.com/thing:1527877) and is licensed under Creative Commons - Attribution.
+* The helmet is the Pinypon Astronaut Helmet by the user [`Jotaerre`](https://cults3d.com/en/users/JotaErre) on [Cults3d](https://cults3d.com/en/3d-model/game/pinypon-astronaut-helmet) and is licensed under Creative Commons - Attribution.
+
+The `sky.png` image is the $2000 \times 1847$ version of the [Hubble Legacy Field Crop](https://science.nasa.gov/asset/hubble/hubble-legacy-field-crop/) that was released on May 2, 2019. This image is credited to "NASA, ESA, G. Illingworth and D. Magee (University of California, Santa Cruz), K. Whitaker (University of Connecticut), R. Bouwens (Leiden University), P. Oesch (University of Geneva), and the Hubble Legacy Field team."
