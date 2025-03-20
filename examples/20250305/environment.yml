@@ -1,0 +1,14 @@
+name: ae353-bokeh
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - notebook
+  - ipywidgets
+  - pip
+  - git
+  - bokeh
