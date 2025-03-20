@@ -13,7 +13,9 @@ nav_order: 2
 ## Notes
 
 * [2025/02/19 (Eigenvalue Placement)](../notes/20250219-placement.pdf)
-* [2025/01/21 (Ackermann's Method, Part 1)](../notes/20250221-acker-part1.pdf)
+* [2025/02/21 (Ackermann's Method, Part 1)](../notes/20250221-acker-part1.pdf)
+* [2025/02/24 (Ackermann's Method, Part 2)](../notes/20250224-acker-part2.pdf)
+* [2025/03/03 (LQR)](../notes/20250303-lqr.pdf)
 
 ## Examples
 
