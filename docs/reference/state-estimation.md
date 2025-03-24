@@ -194,7 +194,8 @@ $$
 y
 &= o - g\left( \begin{bmatrix} q_e \\ v_e \end{bmatrix}, \begin{bmatrix} \tau_e \end{bmatrix} \right) \\
 &= \begin{bmatrix} q \end{bmatrix} - \begin{bmatrix} q_e \end{bmatrix} \\
-&= \begin{bmatrix} q - q_e \end{bmatrix}.
+&= \begin{bmatrix} q - q_e \end{bmatrix} \\
+&= \begin{bmatrix} q - (\pi / 2) \end{bmatrix} .
 \end{aligned}
 $$
 
@@ -249,7 +250,8 @@ $$
 y
 &= o - g\left( \begin{bmatrix} q_e \\ v_e \end{bmatrix}, \begin{bmatrix} \tau_e \end{bmatrix} \right) \\
 &= \begin{bmatrix} \cos q / \sin q \end{bmatrix} - \begin{bmatrix} \cos q_e / \sin q_e \end{bmatrix} \\
-&= \begin{bmatrix} (\cos q / \sin q) - (\cos q_e / \sin q_e) \end{bmatrix}.
+&= \begin{bmatrix} (\cos q / \sin q) - (\cos q_e / \sin q_e) \end{bmatrix} \\
+&= \begin{bmatrix} (\cos q / \sin q) \end{bmatrix}.
 \end{aligned}
 $$
 
