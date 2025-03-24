@@ -224,7 +224,7 @@ y &= Cx + Du \\
 \end{aligned}
 $$
 
-Note that the original sensor model was linear, so there was no approximation here. We could probably have skipped the entire process of linearization and written the system in state-space form bny inspection. However, just as was true when putting dynamic models in state-space form (see [example](state-space-models#example-first-order)), it is nice to know that "linearization" still works even in this simple case.
+Note that the original sensor model was linear, so there was no approximation here. We could probably have skipped the entire process of linearization and written the system in state-space form by inspection. However, just as was true when putting dynamic models in state-space form (see [example](state-space-models#example-first-order)), it is nice to know that "linearization" still works even in this simple case.
 
 ### Example (nonlinear sensor model)
 
