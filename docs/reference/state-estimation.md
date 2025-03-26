@@ -102,6 +102,17 @@ $$y = o - g(m_e, n_e).$$
 
 Note that $y$ measures the *difference* between what the sensor measurements are and what these measurements would be if the system were at equilibrium. In particular, the output is *zero* when the system is at equilibrium even if the measurements are not.
 
+{: .note}
+> We could define the variable
+>
+> $$ o_e = g(m_e, n_e) $$
+>
+> to represent, more concisely, what the sensor measurements would be if the system were at equilibrium. With this new variable, we could define the output more simply as
+>
+> $$y = o - o_e.$$
+>
+> It is important to understand, however, that $o_e$ is **not** an "equilibrium value" in the same way that $m_e$ and $n_e$ are. The key difference is that $m_e$ and $n_e$ are **chosen**, while $o_e$ is **computed** (by evaluating the function $g$ at $m_e$ and $n_e$).
+
 **Step 3.** Compute $C$ and $D$ as follows:
 
 $$
