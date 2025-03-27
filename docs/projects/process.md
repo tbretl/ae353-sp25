@@ -77,7 +77,7 @@ You may revise and resubmit your final report at any time prior to 11:00am on We
 
 We will be notified automatically that you have resubmitted.
 
-We will review and grade the revised version of your report in the same way that we reviewed and graded the original version, with two exceptions:
+We will review and grade the revised version of your report in three steps:
 
 * First, we will check if you satisfied all AIAA Format requirements. If we find a mistake, then we will stop reviewing and will not update your grade.
 * Second, we will check if you tried to address all feedback that was given previously. If we find a mistake that was pointed out to you on a prior version of your report and see no changes in the new version to address that mistake, then we will stop reviewing and will not update your grade.
