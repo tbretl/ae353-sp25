@@ -79,10 +79,9 @@ We will be notified automatically that you have resubmitted.
 
 We will review and grade the revised version of your report in the same way that we reviewed and graded the original version, with two exceptions:
 
-* We will not review any resubmission that has mistakes with AIAA Format.
-* We will mark only the first instance of the first mistake that we find in any given category. For example, as soon as we find a failure to satisfy requirement M5 in the category of Mathematics, we will stop looking for other mistakes in that same category.
-
-We may find and mark mistakes that we did not find (or did not mark) when reviewing the original version of your report.
+* First, we will check if you satisfied all AIAA Format requirements. If we find a mistake, then we will stop reviewing and will not update your grade.
+* Second, we will check if you tried to address all feedback that was given previously. If we find a mistake that was pointed out to you on a prior version of your report and see no changes in the new version to address that mistake, then we will stop reviewing and will not update your grade.
+* Third, we will check if you satisfied requirements in all other categories, just like we did when reviewing the first version of your report. If we find no mistakes in a given category, and if your prior score in that category was either "unacceptable" or "completely unacceptable," then we will change your score in that category to "acceptable." If we do find a mistake in a given category, then we will mark the first instance of that mistake, will stop reviewing in that category (but will continue to review in other categories), and will keep your score in that category unchanged. While we may find and mark mistakes that we did not find (or did not mark) when reviewing prior versions of your report, we will never decrease your score in any given category.
 
 If your new grade is higher than your old grade, it will replace your old grade. If not, your grade will remain the same. In other words, **your grade will not decrease** as a result of the revision process.
 
