@@ -28,7 +28,7 @@ These requirements may evolve during the semester.
 | A24 | Sections must be ordered as in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
 | A25 | The title of each section (other than the Appendix, Acknowledgements, and References — as well as the Abstract, which has no title) should be preceded by a Roman numeral corresponding to its order in the document. |
 | A26 | Each page must be numbered. |
-| A28 | Each reference must be numbered and enclosed in brackets.  |
+| A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. |
 | A29 | All body text must be in the same font size. |
 | A31 | Fonts for all text in the report (including section titles, for example) must be exactly the same — in terms of the name, size, and style — as in the AIAA template. |
 | A36 | There must be an empty line between figure captions and paragraphs |
@@ -38,6 +38,9 @@ These requirements may evolve during the semester.
 | A46 | Both the right and left margins of the abstract must be half an inch larger than the rest of the document, exactly as in the template. |
 | A47 | Abstract text must be bold, exactly as in the template. |
 | A48 | Figures or tables that belong to and are referenced in the main text should appear within it, not in other sections such as the Abstract, Appendix, Acknowledgments, or References. |
+| A49 | The report must have only one title. There must be no sub-titles (e.g., with additional information like the name or year of the class for which the report was submitted). |
+| A50 | Full names (e.g., both first and last — spelled out and not simply as initials) must be given for each author. |
+| A51 | There must be a blank line before each section title. |
 
 
 ## Mathematics
@@ -51,7 +54,7 @@ These requirements may evolve during the semester.
 | M5 | Write variables side-by-side to denote multiplication. Ex: (C = AB instead of C = A*B). |
 | M6 | Variables should be italic. |
 | M7 | Put indices, names, etc., of variables in subscripts or superscripts. |
-| M8 | Words in equations — e.g., subscripts, superscripts, or words like "and" between different expressions — should be non-italic. |
+| M8 | Words in equations — e.g., subscripts, superscripts, names of functions like "sin" or "cos", or words like "and" between different expressions — should be non-italic. |
 | M9 | Remove unnecessary spaces between the equal sign and the variables/constants to maintain proper alignment and formatting. |
 | M10 | Dots should be centered over variables, not also over subscripts or superscripts. |
 | M11 | Variables should be denoted by symbols and not by names that are used in python code. |
@@ -77,6 +80,7 @@ These requirements may evolve during the semester.
 | M47 | The font size of all text in equations should be both readable and close to the standard body text size. |
 | M48 | There must be enough space between equations presented side-by-side in the same block so that it is clear that they are separate equations (e.g., "x = m - m_e \qquad u = n - n_e" and not "x = m - m_e u = n - n_e"). |
 | M49 | Elements of a matrix or vector must be numbers or variables and cannot be equations (for example). |
+| M50 | Elements of a matrix or vector must be separated by tabbed spaces and not by commas. |
 
 
 ## Style
@@ -190,5 +194,7 @@ These requirements may evolve during the semester.
 | C86 | The final version of a report must be complete (e.g., it must not still include placeholders). |
 | C87 | The description of variables and other quantities in the report must be correct. For example, $w_x$ denotes the $x$ component of angular velocity in a body-fixed reference frame and is not the same as the time derivative $\dot{\phi}$ of the roll angle. |
 | C88 | The controllability matrix has as many rows as there are states, and as many columns as the product of the number of inputs and the number of states. |
+| C89 | The "f" in the expression $\dot{m} = f(m, n)$ that describes equations of motion in standard form should be referred to as a "vector-valued function" and not as "a vector" or "a matrix." The "g" in the expression $o = g(m, n)$ that describes a nonlinear sensor model should also be referred to as a vector-valued function. |
+| C90 | A distinction must be made between the desired value $x_\text{des}$ of the linear state, which can vary with time (it can be chosen on-the-fly by the controller) and the equilibrium value $m_e$ of the nonlinear state, which must be both constant and chosen in advance. |
 
 
