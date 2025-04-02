@@ -543,7 +543,7 @@ class Simulator:
         self.data['wheel_2_velocity'].append(v[1])
         self.data['wheel_3_velocity'].append(v[2])
         self.data['wheel_4_velocity'].append(v[3])
-        self.data['star_meas'].append(star_meas)
+        self.data['star_meas'].append(star_meas.tolist())
         for key in self.variables_to_log:
             val = getattr(controller, key, np.nan)
             if not np.isscalar(val):
