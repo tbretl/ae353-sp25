@@ -12,7 +12,7 @@ import umsgpack
 class Simulator:
     def __init__(
             self,
-            dt=0.01,
+            dt=0.04,
             display=True,
             display_pybullet=False,
             seed=None,
@@ -614,9 +614,13 @@ class Simulator:
 
         return rgba_world
     
+    def set_snapshot_size(self, width, height):
+        self.width = width
+        self.height = height
+
     def meshcat_snapshot(self):
         # Get image from visualizer
-        rgba = np.asarray(self.vis.get_image())
+        rgba = np.asarray(self.vis.get_image(self.width, self.height))
 
         # Shrink width and height to be multiples of 16
         height, width, channels = rgba.shape
