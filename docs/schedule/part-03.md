@@ -17,12 +17,18 @@ nav_order: 3
 
 ## Supplementary videos
 
+Observers
 * [What is an observer?](https://mediaspace.illinois.edu/media/t/1_bwsv03zv/292883062)
 * [Do observers make sense?](https://mediaspace.illinois.edu/media/t/1_xf9cytda/292883062)
 * [When does an observer work?](https://mediaspace.illinois.edu/media/t/1_ma7mf2v3/292883062)
 * [How to choose L for an observer?](https://mediaspace.illinois.edu/media/t/1_6kd1vo4k/292883062)
 * [Do observers break controllers?](https://mediaspace.illinois.edu/media/t/1_93pesfka/292883062)
 * [When is observer design possible?](https://mediaspace.illinois.edu/media/t/1_rxgahknr/292883062)
+
+Optimal observers
+* [What is an optimal observer?](https://mediaspace.illinois.edu/media/t/1_m5ku4a2i/292883062)
+* [What problem is solved to produce an optimal observer?](https://mediaspace.illinois.edu/media/t/1_cvfqo0i0/292883062)
+* [Do optimal observers make any sense at all?](https://mediaspace.illinois.edu/media/t/1_axx6h2yg/292883062)
 
 ## Examples
 
@@ -70,3 +76,19 @@ Useful resources:
 * [Notes on observers from class](../notes/20250326-observers-part3.pdf)
 * [Supplementary Video - Do observers break controllers?](https://mediaspace.illinois.edu/media/t/1_93pesfka/292883062)
 * [Reference Page - How do I linearize a sensor model?](../reference/state-estimation#how-do-i-linearize-a-sensor-model)
+
+### 2025/03/31 - 2025/04/04 (Optimal observers)
+
+Things to do:
+* Complete [HW17 in PrairieLearn](https://us.prairielearn.com/pl/course_instance/176602/assessment/2503746).
+* Submit [DP3 Draft 2](../projects/03-spacecraft).
+* Take Exam 3.
+
+Useful resources:
+* [Reference Page - Optimal Observer Design](../reference/optimal-observers)
+* [Supplementary Video - What is an optimal observer?](https://mediaspace.illinois.edu/media/t/1_m5ku4a2i/292883062)
+* [Supplementary Video - What problem is solved to produce an optimal observer?](https://mediaspace.illinois.edu/media/t/1_cvfqo0i0/292883062)
+* [Supplementary Video - Do optimal observers make any sense at all?](https://mediaspace.illinois.edu/media/t/1_axx6h2yg/292883062)
+
+
+
