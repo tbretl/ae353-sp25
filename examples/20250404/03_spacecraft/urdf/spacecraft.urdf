@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+<robot name="spacecraft">
+  <material name="industrial-blue">
+    <color rgba="0.11372549019607843 0.34509803921568627 0.6549019607843137 1.0"/>
+  </material>
+  <material name="arches-blue">
+    <color rgba="0.0 0.6235294117647059 0.8313725490196079 1.0"/>
+  </material>
+  <material name="heritage-orange">
+    <color rgba="0.96078431 0.50980392 0.11764706 1.0"/>
+  </material>
+  <link name="bus" concave="yes">
+    <visual>
+      <geometry>
+        <mesh filename="spacecraft.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+      <material name="industrial-blue"/>
+    </visual>
+    <collision concave="yes">
+      <geometry>
+        <mesh filename="spacecraft.stl" scale="1.0 1.0 1.0"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="5.0"/>
+      <inertia ixx="8.82000000" ixy="0.00000000" ixz="0.00000000" iyy="8.82000000" iyz="0.00000000" izz="8.82000000"/>
+    </inertial>
+  </link>
+  <link name="wheel_1" concave="yes">
+    <visual>
+      <geometry>
+        <mesh filename="rw1.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+      <material name="heritage-orange"/>
+    </visual>
+    <collision concave="yes">
+      <geometry>
+        <mesh filename="rw1.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.06583333" ixy="0.00000000" ixz="0.00000000" iyy="0.06583333" iyz="0.00000000" izz="0.12500000"/>
+    </inertial>
+  </link>
+  <link name="wheel_2" concave="yes">
+    <visual>
+      <geometry>
+        <mesh filename="rw2.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+      <material name="heritage-orange"/>
+    </visual>
+    <collision concave="yes">
+      <geometry>
+        <mesh filename="rw2.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.06583333" ixy="0.00000000" ixz="0.00000000" iyy="0.06583333" iyz="0.00000000" izz="0.12500000"/>
+    </inertial>
+  </link>
+  <link name="wheel_3" concave="yes">
+    <visual>
+      <geometry>
+        <mesh filename="rw3.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+      <material name="heritage-orange"/>
+    </visual>
+    <collision concave="yes">
+      <geometry>
+        <mesh filename="rw3.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.06583333" ixy="0.00000000" ixz="0.00000000" iyy="0.06583333" iyz="0.00000000" izz="0.12500000"/>
+    </inertial>
+  </link>
+  <link name="wheel_4" concave="yes">
+    <visual>
+      <geometry>
+        <mesh filename="rw4.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+      <material name="heritage-orange"/>
+    </visual>
+    <collision concave="yes">
+      <geometry>
+        <mesh filename="rw4.stl" scale="0.5 0.5 0.2"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0.06583333" ixy="0.00000000" ixz="0.00000000" iyy="0.06583333" iyz="0.00000000" izz="0.12500000"/>
+    </inertial>
+  </link>
+  <link name="mass_1">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="4.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_2">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_3">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_4">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_5">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_6">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <link name="mass_7">
+    <inertial>
+      <origin rpy="0.0 0.0 0.0" xyz="0.0 0.0 0.0"/>
+      <mass value="1.0"/>
+      <inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+    </inertial>
+  </link>
+  <joint name="bus_to_wheel_1" type="continuous">
+    <parent link="bus"/>
+    <child link="wheel_1"/>
+    <origin xyz="1.55563492 1.55563492 0.00000000" rpy="1.57079633 0.00000000 2.35619449"/>
+    <axis xyz="0.00000000 0.00000000 1.00000000"/>
+    <limit effort="1000.0" velocity="1000.0"/>
+  </joint>
+  <joint name="bus_to_wheel_2" type="continuous">
+    <parent link="bus"/>
+    <child link="wheel_2"/>
+    <origin xyz="-1.55563492 1.55563492 0.00000000" rpy="1.57079633 0.00000000 3.92699082"/>
+    <axis xyz="0.00000000 0.00000000 1.00000000"/>
+    <limit effort="1000.0" velocity="1000.0"/>
+  </joint>
+  <joint name="bus_to_wheel_3" type="continuous">
+    <parent link="bus"/>
+    <child link="wheel_3"/>
+    <origin xyz="-1.55563492 -1.55563492 0.00000000" rpy="1.57079633 0.00000000 5.49778714"/>
+    <axis xyz="0.00000000 0.00000000 1.00000000"/>
+    <limit effort="1000.0" velocity="1000.0"/>
+  </joint>
+  <joint name="bus_to_wheel_4" type="continuous">
+    <parent link="bus"/>
+    <child link="wheel_4"/>
+    <origin xyz="1.55563492 -1.55563492 0.00000000" rpy="1.57079633 0.00000000 7.06858347"/>
+    <axis xyz="0.00000000 0.00000000 1.00000000"/>
+    <limit effort="1000.0" velocity="1000.0"/>
+  </joint>
+  <joint name="bus_to_mass_1" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_1"/>
+    <origin xyz="0.00000000 0.00000000 -0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_2" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_2"/>
+    <origin xyz="0.00000001 0.00000001 0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_3" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_3"/>
+    <origin xyz="-0.00000001 -0.00000001 -0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_4" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_4"/>
+    <origin xyz="-0.00000000 0.00000000 0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_5" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_5"/>
+    <origin xyz="0.00000000 -0.00000000 -0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_6" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_6"/>
+    <origin xyz="0.00000000 -0.00000000 0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+  <joint name="bus_to_mass_7" type="fixed">
+    <parent link="bus"/>
+    <child link="mass_7"/>
+    <origin xyz="-0.00000000 0.00000000 -0.00000000" rpy="0.00000000 0.00000000 0.00000000"/>
+  </joint>
+</robot>
