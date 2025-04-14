@@ -27,8 +27,8 @@ These requirements may evolve during the semester.
 | A23 | All text in the body of your report must be fully justified (aligned evenly along both the left and right margins). |
 | A24 | Sections must be ordered as in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
 | A25 | The title of each section (other than the Appendix, Acknowledgements, and References — as well as the Abstract, which has no title) should be preceded by a Roman numeral corresponding to its order in the document. |
-| A26 | Each page must be numbered. |
-| A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. |
+| A26 | Each page must be numbered and centered. |
+| A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. All references must consistently follow a well-established citation style (e.g., MLA, APA, Chicago, IEEE, etc.). |
 | A29 | All body text must be in the same font size. |
 | A31 | Fonts for all text in the report (including section titles, for example) must be exactly the same — in terms of the name, size, and style — as in the AIAA template. |
 | A36 | There must be an empty line between figure captions and paragraphs |
@@ -59,7 +59,7 @@ These requirements may evolve during the semester.
 | M9 | Remove unnecessary spaces between the equal sign and the variables/constants to maintain proper alignment and formatting. |
 | M10 | Dots should be centered over variables, not also over subscripts or superscripts. |
 | M11 | Variables should be denoted by symbols and not by names that are used in python code. |
-| M12 | Names of units (whether or not they are abbreviated) must be non-italic, must be separated by a space from the number, and (other than in the Nomenclature) must not be enclosed in parentheses or other delimiters. |
+| M12 | Names of units (whether or not they are abbreviated) must be non-italic, must be separated by a space from the number, and (other than in the Nomenclature) must not be enclosed in parentheses or other delimiters particularly when accompanied by numbers or symbols. |
 | M13 | Names of matrices or vectors should not appear in brackets (only the elements of matrices or vectors should appear that way). |
 | M16 | Units must be correct. |
 | M17 | Each matrix must be enclosed by a single pair of square brackets. |
@@ -74,7 +74,7 @@ These requirements may evolve during the semester.
 | M39 | Either present eigenvalues as elements of a list (e.g., "p = [-1 + 2j, -1 - 2j]") or as separate, named values (e.g., "s_1 = -1 + 2j \qquad s_2 = -1 - 2j") and not as elements of a vector (e.g., "p = \begin{bmatrix} -1 + 2j & -1 - 2j \end{bmatrix}"). |
 | M40 | Equations must not have typos. |
 | M43 | Equations must be centered. |
-| M44 | Equations must be referenced as "Eq." within a sentence, or as "Equation" at the beginning of a sentence. |
+| M44 | Equations must be referenced as "Eq. (1)" within a sentence, or as "Equation (1)" at the beginning of a sentence, with the number in parentheses. |
 | M45 | Do not (1) use the same variable to denote two different things or (2) use two different variables to denote the same thing. |
 | M46 | A subscript must be used to denote substitution of equilibrium values into a Jacobian matrix (e.g., $\frac{\partial f}{\partial m}\biggr\rvert_{m_e, n_e}$ not $\frac{\partial f}{\partial m}\biggr\rvert m_e, n_e$). |
 | M47 | The font size of all text in equations should be both readable and close to the standard body text size. |
@@ -93,7 +93,7 @@ These requirements may evolve during the semester.
 | S2 | Use of apostrophes must be correct (e.g., before the "s" for singular possession, after the "s" for plural possession, etc.). |
 | S3 | Do not use run-on sentences. |
 | S4 | Do not use sentence fragments. |
-| S6 | Only indent the first line of each paragraph. |
+| S6 | Indent the first line (but no other line) of each paragraph. |
 | S7 | Block equations must be a part of the sentence and are subject to the same rules for grammar and punctuation as everything else. When presented alone, a block equation would be a sentence fragment. |
 | S9 | Capitalization must be correct (e.g., do not capitalize words unnecessarily, always capitalize the first word of a sentence, etc.). |
 | S10 | Spelling must be correct. |
@@ -109,7 +109,7 @@ These requirements may evolve during the semester.
 | S48 | There should be no repeated punctuation (e.g., "This sentence ends in two periods by mistake.."). |
 | S57 | Nouns and pronouns should agree in terms of grammatical number (e.g., "robot" with "it" or "robots" with "they".) |
 | S59 | Sources referenced in-text must follow the formats of "It is shown by Smith [4] ...", "The effect of ... should be taken into account [4].", "For example, see Refs. [6, 7].", "Further documentation can be found in [8-10].", or "This procedure was proposed by Gelb [11, p. 250]." |
-| S60 | Use "Section X" when referring to a specific section. |
+| S60 | Use "Section III" (for example) when referring to a section. Use "Section III-B" (for example) when referring to a subsection. |
 | S61 | There must be no missing space: words in a sentence must be separated by a space, there must be a single space after the end of a sentence, there must be a space between a parenthetical remark and the preceding word, there must be space between items (i.e., after each comma) in a comma-delimited list, there must be a space between words and citations (e.g., "blah [3]" not "blah[3]"), etc. |
 | S62 | There must be no extra space: there must be only a single space and not a double space after the end of a sentence, there must be no space between punctuation (e.g., a comma, period, colon, semicolon, etc.) and the preceding word (e.g., "blah." not "blah ."), etc. |
 | S63 | Numbered lists must be numbered consecutively (e.g., 1, 2, 3, ...), without skipped numbers (e.g., 1, 2, 4, ...) or repeated numbers (e.g., 1, 2, 1, ...). |
@@ -122,13 +122,13 @@ These requirements may evolve during the semester.
 
 | Label | Requirement |
 | --- | --- |
-| F1 | Plots must provide useful information (e.g., do not show a plot of a quantity that is constant or is always zero). |
+| F1 | Plots must provide useful information (e.g., do not show a plot of a quantity that is constant, is always zero, or is saturated). |
 | F2 | Each figure or table must be referenced at least once by number in the text. |
 | F3 | Each figure or table must have a caption and a number. |
 | F4 | Legends must not cover up plots or obscure results. |
 | F5 | Labels in legends, axes, or tables should be descriptive names (text) or symbols (math) and should not be code variables (e.g., with underscores). |
 | F6 | Figure captions must be written as one or more complete sentences that follow the same rules for grammar and punctuation as everything else. |
-| F7 | Plots should not have titles — descriptions should go in captions or subcaptions. |
+| F7 | Plots should not have titles — descriptions should go in captions, subcaptions, or legends. |
 | F9 | The caption of a figure must be underneath the figure rather than above the figure. |
 | F10 | The caption of a table must be above the table rather than below the table. |
 | F11 | Table captions must be "definitive titles" (e.g., "Table 1  Buckling results for blade-stiffened panels"). In other words, unlike figure captions, table captions must not be a complete sentence, must have only the first word capitalized, and must have no period or other punctuation at the end. |
@@ -141,13 +141,14 @@ These requirements may evolve during the semester.
 | F18 | References to figures and tables in the text should be by number (e.g., "Fig. 1") and not by location (e.g., "the above figure"). Use “Figure” if it is the first word of a sentence and use “Fig.” if it is anywhere else. |
 | F19 | Each figure or table must be numbered in the order of their appearance in the document. Figures and tables should be numbered separately — so, for example, as Fig. 1, Table 1, Fig. 2, and Table 2, and not as Fig. 1, Table 2, Fig. 3, and Table 4. |
 | F20 | The font size of all text in a plot (e.g., legends, axis labels, etc.) should be both readable and close to the standard body text size. |
-| F22 | The font of figure and table captions must be bold, but otherwise should be the same size and style as the standard body text. |
+| F22 | The font of figure and table captions must be bold, but otherwise should be the same size and style as the standard body text. (e.g., It should be non-italic.) |
 | F23 | Units must be provided, either in a legend or an axis label. |
 | F24 | The caption of a table must be centered. |
 | F25 | References in the text should not be made to figures or tables that do not exist in the report. |
 | F26 | References in the text should be made to the figure or table that contains the information being discussed. |
 | F27 | Units in legends must be consistent with units in axis labels. |
 | F28 | Figures should not have text flowing around them. |
+| F29 | In a plot, lines must be wide enough and markers large enough so that readers can see and distinguish between them without magnification. |
 
 
 ## Content
@@ -189,13 +190,13 @@ These requirements may evolve during the semester.
 | C71 | Equations must be consistent with what is described in the text. (For example, if some eigenvalues in an equation do not have negative real part, the text should not claim that all eigenvalues have negative real part.) |
 | C73 | If you present a result in Results and Discussion, you must describe the experiment that produced it in Experimental Methods. If you describe an experiment in Experimental Methods, you must present the results of that experiment in Results and Discussion. |
 | C75 | Clearly define non-standard functions before they are used (e.g., "\lambda (A - BK)"). |
-| C76 | If you apply LQR to design a controller, you must state and justify your choice of weights Q and R. (Remember that LQR computes K given Q and R — it doesn't compute Q and R or otherwise tell you what these weights should be.) |
+| C76 | If you apply LQR to design a controller, you must state and justify your choice of weights Q and R. (Remember that LQR computes K given Q and R — it doesn't compute Q and R or otherwise tell you what these weights should be.)  If your control system includes an observer, then these requirements apply to the dual LQR that determines the observer gain L as well. |
 | C78 | If any work other than your own is used in your report (i.e. lecture notes, code, course website, textbook, articles, etc.), it must be cited in the References section. |
 | C79 | Sources listed in the "References" section must be referenced within the text at least once. |
 | C80 | The (nonlinear) equations of motion that describe the system to be controlled must be correct. If these equations of motion are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
-| C81 | The choice of equilibrium point must be stated and correct. That is, assuming the equations of motion are written in standard form as $\dot{m} = f(m, n)$, the equilibrium point must be a choice of $m_e$ and $n_e$ for which $f(m_e, n_e) = 0$. |
+| C81 | The choice of equilibrium point must be stated and correct. That is, assuming the equations of motion are written in standard form as $\dot{m} = f(m, n)$, the equilibrium point must be a choice of $m_e$ and $n_e$ for which $f(m_e, n_e) = 0$. The choice of equilibrium point must also be justified (making clear if other equilibrium points exist or if yours was the only possible choice). |
 | C82 | The definition of the state x, the input u, and the measurement y in the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be correct. That is, assuming the equations of motion and measurement are written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$ and given a choice $m_e$ and $n_e$ of equilibrium point of  the state m and the input n, the state, input, and measurement in the  state-space model must be $x = m - m_e$, $u = n - n_e$, and $y=  o - g(m_e, n_e)$. |
-| C83 | The matrices A, B, C, and D that define the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be correct. While it may be hard for readers to know if the numbers in A and B are exactly right (without looking at your code and reproducing your results), it is often easy to know if these matrices have the right size and shape, if these matrices have zeros in the right places, etc. — double-check these things. |
+| C83 | The method of computing the matrices A and B that define the linearized dynamic model (e.g., expressions in terms of Jacobians) must be given and correct — a citation is insufficient. If you choose to show these matrices in your report — either the full matrices with numbers, or the structure of these matrices (e.g., which elements are zero or non-zero) — then these results must also be correct. If your control system includes an observer, then these requirements apply to the matrices C and D that define the linearized sensor model as well. |
 | C84 | The elements of the state $m$, input $n$, and measurement $o$ of the (nonlinear) equations of motion and measurement, when written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$, must be clearly defined. |
 | C85 | The rank of the controllability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is controllable. |
 | C86 | The final version of a report must be complete (e.g., it must not still include placeholders). |
@@ -205,10 +206,10 @@ These requirements may evolve during the semester.
 | C90 | A distinction must be made between the desired value $x_\text{des}$ of the linear state, which can vary with time (it can be chosen on-the-fly by the controller) and the equilibrium value $m_e$ of the nonlinear state, which must be both constant and chosen in advance. |
 | C91 | The report must not mischaracterize technical concepts by using incorrect, ambiguous, or unusual language to describe them. For example, the thing that is produced by linearizing the equations of motion is a "dynamic model" and not a "model for the controller." Similarly, the thing that is produced by linearizing the measurement equations is a "sensor model" and not an "observer model." |
 | C92 | References must be cited to support claims — for example, "attitude control is a critical challenge in modern space systems" or "a star tracker measures the positions of stars... and compares them to a known catalog" — for which you do not provide evidence (e.g., with derivations or experimental results). |
-| C93 | The (nonlinear) measurement equations that describe output of sensors must be correct. If these measurement equations are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
-| C94 | We strongly recommend that you follow the three-step process described on the course website (see Reference > State estimation > How do I linearize a sensor model?) to linearize the measurement equations. Remember that this process not only results in the computation of "A" and "B", but also in the definition of "y". If you choose not to follow this three-step process, you must explain clearly and justify rigorously whatever alternative process you are using. |
-| C95 | The observability matrix has as many columns as there are states, and as many rows as the product of the number of outputs and the number of states. It is computed by vertically stacking C, CA, etc. |
-| C96 | The choice of actuators (e.g., the placement of reaction wheels on a spacecraft) and of sensors (e.g., the location of stars to be tracked) must be made before proceeding with model-based controller and observer design, because the dynamic model (used for controller design) and the sensor model (used for observer design) depend on these choices. |
+| C93 | The (nonlinear) measurement equations that describe output of sensors must be correct. (e.g., In DP 3, the measurement equations for each individual star and those for all stars must be distinguished and represented using different notations.) If these measurement equations are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
+| C94 | We strongly recommend that you follow the three-step process described on the course website (see Reference > State estimation > How do I linearize a sensor model?) to linearize the measurement equations. Remember that this process not only results in the computation of "C" and "D", but also in the definition of "y". If you choose not to follow this three-step process, you must explain clearly and justify rigorously whatever alternative process you are using. |
+| C95 | The observability matrix has as many columns as there are states, and as many rows as the product of the number of outputs and the number of states. It is computed by vertically stacking C, CA, etc. If you decide to take the transpose of the observability matrix, it is computed by horizontally stacking C', (CA)', etc. |
+| C96 | The choice of actuators (e.g., the placement of reaction wheels on a spacecraft) and of sensors (e.g., the location of stars to be tracked) must be made before proceeding with model-based controller and observer design, because the dynamic model (used for controller design) and the sensor model (used for observer design) depend on these choices. A reason for these choices must also be given (e.g., why put a wheel here instead of there, why track three stars instead of five stars, etc.). |
 | C97 | The rank of the observability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is observable. |
 | C98 | If the true state is not known, the linear state feedback should be associated with the state estimate — i.e., use $-K \hat{x}$ instead of $-Kx$. |
 | C99 | The description of experimental methods must be self-consistent. For example, you cannot say both that initial conditions were random and that initial conditions were not random (i.e., were chosen to be something in particular). |
@@ -217,5 +218,6 @@ These requirements may evolve during the semester.
 | C102 | If the control system includes an observer, then the report must provide evidence — presented in figures and tables — both that the observer works (e.g., by looking at error in the state estimate) and that the controller works (e.g., by looking at error in the state). |
 | C103 | If the control system includes an observer, then the report must distinguish between error in the state (i.e., the difference "x - 0" or "x - x_des") and error in the state estimate (i.e., the difference "xhat - x"). Otherwise, any reference to "error" is likely ambiguous. |
 | C104 | The report must contain plots that are substantively different from those generated by template code. The plots in the template code are provided only as a starting point and are, in general, not acceptable for use in your report. Even if you modify their style (e.g., to avoid covering plot lines with legends or to label variables in legends with their python names and not with mathematical symbols), these template plots are unlikely to provide useful information. There will always be another choice of plot that is much more useful and much more effective than a template plot. |
+| C105 | The report must contain figures and tables that are both meaningful and conceptually correct. For example, a histogram showing the distribution of time until failure does not directly show whether your controller and observer work, since there may be cases where the simulator runs without early termination even if the controller and observer fail to work (e.g., the cat pilot fails to dock). |
 
 
