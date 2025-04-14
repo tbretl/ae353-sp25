@@ -1488,6 +1488,21 @@ class Simulator:
                 return view
         
         return None
+    
+    def remove_view(self, view_name):
+        # Get the view to remove
+        view = self.get_view_by_name(view_name)
+        if view is None:
+            raise Exception(f'there is no view with the name {view_name}')
+        url = view['vis'].url()
+        
+        # Close the zmq server that supports this view so it can be reused
+        view['vis'].window.server_proc.kill()
+        view['vis'].window.server_proc.wait()
+
+        # Remove the view from the list of views
+        self.views.remove(view)
+        print(f'Removed view "{view_name}" at url "{url}"')
 
     def add_view(self, view_name, view_type, fov=60):
         view = self.get_view_by_name(view_name)
@@ -1571,6 +1586,10 @@ class Simulator:
         if view is not None:
             raise Exception(f'there is already a view with the name {view_name}')
         
+        drone = self.get_drone_by_name(drone_name)
+        if drone is None:
+            raise Exception(f'there is no drone with the name {drone_name}')
+        
         # Create visualizer
         vis = self.meshcat_init()
         self._meshcat_add_rings(vis)
@@ -1627,8 +1646,14 @@ class Simulator:
             view['vis'].set_cam_target(ring['p'])
         elif view['type'] == 'drone':
             drone = self.get_drone_by_name(view['drone_name'])
+
+            # If the drone does not exist, remove the view associated with it
             if drone is None:
-                raise Exception(f'drone "{view['drone_name']}" does not exist')
+                print(f'WARNING: drone "{view['drone_name']}" does not exist, so the associated')
+                print(f'         view with name "{view['name']}" will be removed')
+                self.remove_view(view['name'])
+                return
+            
             target, ori = self.bullet_client.getBasePositionAndOrientation(drone['id'])
             eul = self.bullet_client.getEulerFromQuaternion(ori)
             R = Rotation.from_euler('ZYX', [np.deg2rad((eul[2] * 180 / np.pi) + view['yaw']), np.deg2rad(view['pitch']), 0.]).as_matrix()
