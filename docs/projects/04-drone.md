@@ -163,7 +163,7 @@ You must, of course, replace `netid` with your own netid. Please use all lowerca
 
 **Please submit only one pair of files - with the NetID of only one group member - for each group.** Your submission will automatically be associated with all members of your group.
 
-**All groups are required to entire the race!** Your submission will be assessed based on whether or not it satisfies three conditions:
+**All groups are required to enter the race!** Your submission will be assessed based on whether or not it satisfies three conditions:
 
 * It must not raise an exception (i.e., throw an error).
 * It must not print anything to `stdout` (i.e., run `print` statements).
