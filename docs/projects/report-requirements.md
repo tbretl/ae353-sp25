@@ -25,7 +25,7 @@ These requirements may evolve during the semester.
 | A15 | There must not be watermarks or annotations (e.g., revision marks that result from tracking changes in Microsoft Word) that are not part of the AIAA template. |
 | A17 | Code must be displayed as text in a code block (i.e., set apart from the rest of the text in a monospace font) and not, for example, as a screenshot or as text mixed in with the rest of the report. (Think carefully before you include code in your report, however — it is often better to share code in a different place, for example in the notebook that you are asked to submit as one of your final deliverables). |
 | A23 | All text in the body of your report must be fully justified (aligned evenly along both the left and right margins). |
-| A24 | Sections must exist and be ordered as in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
+| A24 | All required sections must be present exactly once and follow the order specified in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
 | A25 | The title of each section (other than the Appendix, Acknowledgements, and References — as well as the Abstract, which has no title) should be preceded by a Roman numeral corresponding to its order in the document. |
 | A26 | Each page must be numbered and centered. |
 | A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. All references must consistently follow a well-established citation style (e.g., MLA, APA, Chicago, IEEE, etc.). |
@@ -37,11 +37,11 @@ These requirements may evolve during the semester.
 | A45 | Reports must be at most six pages. |
 | A46 | The right and left margins must be 1 inch for all text (including the nomenclature) except the abstract, in which both margins must be 1.5 inches. |
 | A47 | Abstract text must be bold, exactly as in the template. |
-| A48 | Figures or tables that belong to and are referenced in the main text should appear within it, not in other sections such as the Abstract, Appendix, Acknowledgments, or References. |
 | A49 | The report must have only one title. There must be no sub-titles (e.g., with additional information like the name or year of the class for which the report was submitted). |
 | A50 | Full names (e.g., both first and last — spelled out and not simply as initials) must be given for each author. |
 | A51 | There must be a blank line before each section title. |
 | A53 | There must be an equals sign between each symbol and its definition in the Nomenclature. |
+| A54 | Nomenclature must not contain subsections. |
 
 
 ## Mathematics
@@ -74,7 +74,7 @@ These requirements may evolve during the semester.
 | M39 | Either present eigenvalues as elements of a list (e.g., "p = [-1 + 2j, -1 - 2j]") or as separate, named values (e.g., "s_1 = -1 + 2j \qquad s_2 = -1 - 2j") and not as elements of a vector (e.g., "p = \begin{bmatrix} -1 + 2j & -1 - 2j \end{bmatrix}"). |
 | M40 | Equations must not have typos. |
 | M43 | Equations must be centered. |
-| M44 | Equations must be referenced as "Eq. (1)" within a sentence, or as "Equation (1)" at the beginning of a sentence, with the number in parentheses. |
+| M44 | Equations must be referenced as "Eq. (1)" within a sentence, or as "Equation (1)" at the beginning of a sentence, with the number in parentheses. Examples of incorrect references include "Eq. 1" (no parentheses), "Eq.(1)" (no space between the "Eq." and the "(1)", "Eq. ( 1)" (extra space inside the parentheses), etc. |
 | M45 | Do not (1) use the same variable to denote two different things or (2) use two different variables to denote the same thing. |
 | M46 | A subscript must be used to denote substitution of equilibrium values into a Jacobian matrix (e.g., $\frac{\partial f}{\partial m}\biggr\rvert_{m_e, n_e}$ not $\frac{\partial f}{\partial m}\biggr\rvert m_e, n_e$). |
 | M47 | The font size of all text in equations should be both readable and close to the standard body text size. |
@@ -85,6 +85,7 @@ These requirements may evolve during the semester.
 | M52 | The use of "percent" and "%" must be consistent throughout the report. Unless there is a specific reason to do otherwise, use "%". |
 | M53 | When listing variables, write them out (e.g., $w_x$, $w_y$, and $w_z$ instead of $w_{x,y,z}$) or use standard notations (e.g., $m_i$ where $i = 1, \dotsc, N$ or $m_1, \dotsc, m_N$). |
 | M54 | Spell out operators and comparison symbols in the abstract (e.g., use "about" instead of "~", and "greater than" instead of ">"). |
+| M55 | Matrix dimensions must be consistent within an equation (e.g., both sides of the equation must match). |
 
 
 ## Style
@@ -199,7 +200,7 @@ These requirements may evolve during the semester.
 | C79 | Sources listed in the "References" section must be referenced within the text at least once. |
 | C80 | The (nonlinear) equations of motion that describe the system to be controlled must be presented and correct. If these equations of motion are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
 | C81 | The choice of equilibrium point must be stated and correct. That is, assuming the equations of motion are written in standard form as $\dot{m} = f(m, n)$, the equilibrium point must be a choice of $m_e$ and $n_e$ for which $f(m_e, n_e) = 0$. The choice of equilibrium point must also be justified (making clear if other equilibrium points exist or if yours was the only possible choice). |
-| C82 | The definition of the state x, the input u, and the measurement y in the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be correct. That is, assuming the equations of motion and measurement are written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$ and given a choice $m_e$ and $n_e$ of equilibrium point of  the state m and the input n, the state, input, and measurement in the  state-space model must be $x = m - m_e$, $u = n - n_e$, and $y=  o - g(m_e, n_e)$. |
+| C82 | The definition of the state x, the input u, and the measurement y in the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be specified and must be correct. That is, assuming the equations of motion and measurement are written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$ and given a choice $m_e$ and $n_e$ of equilibrium point of  the state m and the input n, the state, input, and measurement in the  state-space model must be $x = m - m_e$, $u = n - n_e$, and $y=  o - g(m_e, n_e)$. |
 | C83 | The method of computing the matrices A and B that define the linearized dynamic model (e.g., expressions in terms of Jacobians) must be given and correct — a citation is insufficient. If you choose to show these matrices in your report — either the full matrices with numbers, or the structure of these matrices (e.g., which elements are zero or non-zero) — then these results must also be correct. If your control system includes an observer, then these requirements apply to the matrices C and D that define the linearized sensor model as well. |
 | C84 | The elements of the state $m$, input $n$, and measurement $o$ of the (nonlinear) equations of motion and measurement, when written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$, must be clearly defined. |
 | C85 | The rank of the controllability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is controllable. |
@@ -212,7 +213,7 @@ These requirements may evolve during the semester.
 | C92 | References must be cited to support claims — for example, "attitude control is a critical challenge in modern space systems" or "a star tracker measures the positions of stars... and compares them to a known catalog" — for which you do not provide evidence (e.g., with derivations or experimental results). |
 | C93 | The (nonlinear) measurement equations that describe output of sensors must  be presented and correct. (e.g., In DP 3, the measurement equations for each individual star and those for all stars must be distinguished and represented using different notations.) If these measurement equations are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
 | C94 | We strongly recommend that you follow the three-step process described on the course website (see Reference > State estimation > How do I linearize a sensor model?) to linearize the measurement equations. Remember that this process not only results in the computation of "C" and "D", but also in the definition of "y". If you choose not to follow this three-step process, you must explain clearly and justify rigorously whatever alternative process you are using. |
-| C95 | The observability matrix has as many columns as there are states, and as many rows as the product of the number of outputs and the number of states. It is computed by vertically stacking C, CA, etc. If you decide to take the transpose of the observability matrix, it is computed by horizontally stacking C', (CA)', etc. |
+| C95 | The observability matrix has as many columns as there are states, and as many rows as the product of the number of outputs and the number of states. It is computed by vertically stacking C, CA, etc. (or by horizontally stacking C^T, (CA)^T, etc., and taking the transpose of the result). |
 | C96 | The choice of actuators (e.g., the placement of reaction wheels on a spacecraft) and of sensors (e.g., the location of stars to be tracked) must be made before proceeding with model-based controller and observer design, because the dynamic model (used for controller design) and the sensor model (used for observer design) depend on these choices. A reason for these choices must also be given (e.g., why put a wheel here instead of there, why track three stars instead of five stars, etc.). |
 | C97 | The rank of the observability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is observable. |
 | C98 | If the true state is not known, the linear state feedback should be associated with the state estimate — i.e., use $-K \hat{x}$ instead of $-Kx$. |
