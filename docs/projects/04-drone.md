@@ -117,7 +117,7 @@ Do the following thing to compete in the [race](#contest):
 
 * Submit a control design that runs without being disqualified (i.e., it does not raise an exception, it does not print any debug text, and it does not exceed limits on computation time).
 
-Just as in your previous two design projets, you must be specific about what you mean by "success" and you must provide **quantitative** evidence to support the claim that you have (or have not) succeeded. Remember that people often think about this in terms of **requirements** and **verifications**.
+Just as in your previous two design projects, you must be specific about what you mean by "success" and you must provide **quantitative** evidence to support the claim that you have (or have not) succeeded. Remember that people often think about this in terms of **requirements** and **verifications**.
 
 {: .note-title}
 > Analysis of failure
