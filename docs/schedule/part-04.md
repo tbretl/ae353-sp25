@@ -12,8 +12,9 @@ nav_order: 4
 
 ## Notes
 
-* [2025/04/09 (Tracking, Revisited)](../notes/20250409-tracking-revisited.pdf)
+* [2025/04/09 (Tracking, revisited)](../notes/20250409-tracking-revisited.pdf)
 * [2025/04/18 (Transfer functions)](../notes/20250418-transfer-functions.pdf)
+* [2025/04/23 (Collision avoidance)](../notes/20250423-collision-avoidance.pdf)
 
 ## Supplementary videos
 
