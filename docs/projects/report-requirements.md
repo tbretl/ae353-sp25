@@ -19,7 +19,7 @@ These requirements may evolve during the semester.
 | Label | Requirement |
 | --- | --- |
 | A2 | There should be no additional lines between paragraphs. |
-| A3 | All paragraphs (including in the abstract) should be indented the same amount, exactly the amount specified in the template. The only exception is the first sentence of the Introduction, which should not be indented. |
+| A3 | All paragraphs (including in the abstract) should be indented the same amount, exactly the amount specified in the template. The only exception is the first sentence of the Introduction, which should not be indented. In that case, the first character should be capitalized using a dropped capital (e.g., \lettrine{T}{his}). |
 | A5 | You must choose either the word or latex template from AIAA and follow it exactly. |
 | A8 | All equations must have one blank line above and below them. |
 | A15 | There must not be watermarks or annotations (e.g., revision marks that result from tracking changes in Microsoft Word) that are not part of the AIAA template. |
@@ -86,6 +86,9 @@ These requirements may evolve during the semester.
 | M53 | When listing variables, write them out (e.g., $w_x$, $w_y$, and $w_z$ instead of $w_{x,y,z}$) or use standard notations (e.g., $m_i$ where $i = 1, \dotsc, N$ or $m_1, \dotsc, m_N$). |
 | M54 | Spell out operators and comparison symbols in the abstract (e.g., use "about" instead of "~", and "greater than" instead of ">"). |
 | M55 | Matrix dimensions must be consistent within an equation (e.g., both sides of the equation must match). |
+| M56 | Vector expressions should be written consistently throughout the report—using either parentheses or brackets—and must have compatible dimensions for operations. |
+| M57 | The number of elements in each row of a matrix must be consistent. |
+| M58 | When expressing a diagonal matrix, one should either define and use the diagonal operator notation (e.g., diag(a,b,c,…)) or explicitly write out the full matrix with all elements. |
 
 
 ## Style
@@ -208,7 +211,6 @@ These requirements may evolve during the semester.
 | C87 | The description of variables and other quantities in the report must be correct. For example, $w_x$ denotes the $x$ component of angular velocity in a body-fixed reference frame and is not the same as the time derivative $\dot{\phi}$ of the roll angle. Similarly, the $\psi$ is a yaw angle — part of an Euler angle sequence (likely body-fixed), which is one way to represent the orientation of a rigid body or equivalently to parameterize a rotation matrix — and is not a "principal axis value." |
 | C88 | The controllability matrix has as many rows as there are states, and as many columns as the product of the number of inputs and the number of states. It is computed by horizontally stacking B, AB, etc. |
 | C89 | The "f" in the expression $\dot{m} = f(m, n)$ that describes equations of motion in standard form should be referred to as a "vector-valued function" and not as "a vector" or "a matrix." While it is acceptable to refer to "the function f" in text, it is unacceptable to say "f = ..." rather than "f(m, n) = ..." in an equation. The "g" in the expression $o = g(m, n)$ that describes a nonlinear sensor model should also be referred to (and denoted) as a vector-valued function. |
-| C90 | A distinction must be made between the desired value $x_\text{des}$ of the linear state, which can vary with time (it can be chosen on-the-fly by the controller) and the equilibrium value $m_e$ of the nonlinear state, which must be both constant and chosen in advance. |
 | C91 | The report must not mischaracterize technical concepts by using incorrect, ambiguous, or unusual language to describe them. For example, the thing that is produced by linearizing the equations of motion is a "dynamic model" and not a "model for the controller." Similarly, the thing that is produced by linearizing the measurement equations is a "sensor model" and not an "observer model." |
 | C92 | References must be cited to support claims — for example, "attitude control is a critical challenge in modern space systems" or "a star tracker measures the positions of stars... and compares them to a known catalog" — for which you do not provide evidence (e.g., with derivations or experimental results). |
 | C93 | The (nonlinear) measurement equations that describe output of sensors must  be presented and correct. (e.g., In DP 3, the measurement equations for each individual star and those for all stars must be distinguished and represented using different notations.) If these measurement equations are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
@@ -224,5 +226,9 @@ These requirements may evolve during the semester.
 | C103 | If the control system includes an observer, then the report must distinguish between error in the state (i.e., the difference "x - 0" or "x - x_des") and error in the state estimate (i.e., the difference "xhat - x"). Otherwise, any reference to "error" is likely ambiguous. |
 | C104 | The report must contain plots that are substantively different from those generated by template code. The plots in the template code are provided only as a starting point and are, in general, not acceptable for use in your report. Even if you modify their style (e.g., to avoid covering plot lines with legends or to label variables in legends with their python names and not with mathematical symbols), these template plots are unlikely to provide useful information. There will always be another choice of plot that is much more useful and much more effective than a template plot. |
 | C105 | The report must contain figures and tables that are both meaningful and conceptually correct. For example, a histogram showing the distribution of time until failure does not directly show whether your controller and observer work, since there may be cases where the simulator runs without early termination even if the controller and observer fail to work (e.g., the cat pilot fails to dock). |
+| C106 | Provide any method (e.g., reference tracking) that enables the drone to fly through rings. |
+| C107 | If reference tracking is used, state and justify how the desired state of the nonlinear system (e.g., m_des) is chosen. This includes correctly specifying all elements of m_des, specifying your values for the desired positions p_x, p_y, and p_z ​ in DP4 (at least for illustrating reference tracking in the Theory section, assuming a single desired position—such as a ring—is given), and explaining why you chose them. |
+| C108 | Correctly define the desired state of the linear system (e.g., x_des = m_des - m_e). This includes correctly specifying all elements of x_des, identifying which of them can be changed (i.e., the state variables that can be tracked), while clearly distinguishing m_des from m_e. |
+| C109 | The dimensions of Q and R when applying LQR to design a controller must be correct: Q must be a square matrix of size equal to the number of states, and R must be a square matrix of size equal to the number of control inputs. The similar requirements apply to the dual LQR used to design an observer: Q must be square with dimensions equal to the number of states, and R must be square with dimensions equal to the number of measurements. |
 
 
