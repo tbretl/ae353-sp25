@@ -28,20 +28,21 @@ These requirements may evolve during the semester.
 | A24 | All required sections must be present exactly once and follow the order specified in the guidelines (consistent with the AIAA template): Abstract, Nomenclature, Introduction, Theory, Experimental Methods, Results and Discussion, Conclusion, Appendix, Acknowledgements, and References. |
 | A25 | The title of each section (other than the Appendix, Acknowledgements, and References — as well as the Abstract, which has no title) should be preceded by a Roman numeral corresponding to its order in the document. |
 | A26 | Each page must be numbered and centered. |
-| A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. All references must consistently follow a well-established citation style (e.g., MLA, APA, Chicago, IEEE, etc.). |
+| A28 | In the References section, each reference must be numbered. Each number must be enclosed in square brackets and be aligned at the left margin with no indent. There must be a space between the number enclosed in square brackets and the following text. All text of each reference must be indented (on the left) by exactly the same amount — that amount must be larger than the widest reference number. All references must consistently follow a well-established citation style (e.g., MLA, APA, Chicago, IEEE, etc.). |
 | A29 | All body text must be in the same font size. |
 | A31 | Fonts for all text in the report (including section titles, for example) must be exactly the same — in terms of the name, size, and style — as in the AIAA template. |
 | A36 | There must be an empty line between figure captions and paragraphs |
 | A37 | There must not be an empty line between headings and the following text.  |
 | A43 | Unlike all other sections, (1) the Abstract must be neither titled nor numbered, and (2) the Appendix, Acknowledgements, and References must not be numbered. |
 | A45 | Reports must be at most six pages. |
-| A46 | The right and left margins must be 1 inch for all text (including the nomenclature) except the abstract, in which both margins must be 1.5 inches. |
+| A46 | The left and right margins must be 1 inch for all text (including the nomenclature) except the abstract, in which both margins must be 1.5 inches. |
 | A47 | Abstract text must be bold, exactly as in the template. |
 | A49 | The report must have only one title. There must be no sub-titles (e.g., with additional information like the name or year of the class for which the report was submitted). |
 | A50 | Full names (e.g., both first and last — spelled out and not simply as initials) must be given for each author. |
-| A51 | There must be a blank line before each section title. |
+| A51 | There must be an empty line before each section title. |
 | A53 | There must be an equals sign between each symbol and its definition in the Nomenclature. |
 | A54 | Nomenclature must not contain subsections. |
+| A55 | The bottom and lower margins must be 1 inch. All text, except for page numbers and footnotes, must be contained within that margin. |
 
 
 ## Mathematics
@@ -49,7 +50,7 @@ These requirements may evolve during the semester.
 | Label | Requirement |
 | --- | --- |
 | M1 | All equations should be numbered in parentheses flush right. |
-| M2 | The number of significant figures (or digits after the decimal place) should be both consistent and reasonable. |
+| M2 | The number of significant figures should be both consistent and reasonable. (Alternatively, you could choose to make the number of digits after the decimal point both consistent and reasonable. It is your choice whether you want to use "significant figures" or "digits after the decimal point" — but, whatever you choose, you must be consistent.) |
 | M3 | Inline equations must not be taller than the standard line height. If they are, make them block equations. |
 | M4 | Use symbols for Greek letters rather than spelling them out. |
 | M5 | Place terms side by side when (1) denoting the multiplication of variables (e.g., C = AB instead of C = A×B or C = A*B), or (2) denoting the multiplication of a coefficient and a variable (e.g., y = 2x instead of y = 2×x or y = 2*x). |
@@ -122,6 +123,7 @@ These requirements may evolve during the semester.
 | S64 | The word "data" is plural and must be used, for example, as "these data show" such-and-such and not as "this data shows" such-and-such. |
 | S65 | A sentence should not begin with a numeral or a symbol; either spell it out or rephrase the sentence. |
 | S66 | When commas are used to set off nonessential words or phrases, what remains must be a complete sentence. For example, "linear state feedback in the form, $u = - K x$, is implemented" is incorrect (because "linear state feedback in the form is implemented" is not a complete sentence), while "linear state feedback, $u = - K x$, is implemented" is correct (because "linear state feedback is implemented" is a complete sentence) and "linear state feedback in the form $u = - K x$ is implemented" is also correct (because no commas were used). |
+| S67 | When listing two items, use 'and' (e.g., A and B). When listing three or more items, use commas and include 'and' before the last item (e.g., A, B, and C). |
 
 
 ## Figures and Tables
@@ -157,6 +159,7 @@ These requirements may evolve during the semester.
 | F29 | In a plot, lines must be wide enough and markers large enough so that readers can see and distinguish between them without magnification. |
 | F30 | Each figure or table must be centered. |
 | F31 | Each figure or table must be complete (e.g., figures must have all axes visible and not cut off, tables must have all cells properly populated, etc.). |
+| F32 | Each figure or table must be accompanied by a caption or title that correctly describes its content. |
 
 
 ## Content
@@ -203,7 +206,7 @@ These requirements may evolve during the semester.
 | C79 | Sources listed in the "References" section must be referenced within the text at least once. |
 | C80 | The (nonlinear) equations of motion that describe the system to be controlled must be presented and correct. If these equations of motion are not already in standard form, then the process of putting them in standard form must be described and the result must be correct. |
 | C81 | The choice of equilibrium point must be stated and correct. That is, assuming the equations of motion are written in standard form as $\dot{m} = f(m, n)$, the equilibrium point must be a choice of $m_e$ and $n_e$ for which $f(m_e, n_e) = 0$. The choice of equilibrium point must also be justified (making clear if other equilibrium points exist or if yours was the only possible choice). |
-| C82 | The definition of the state x, the input u, and the measurement y in the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be specified and must be correct. That is, assuming the equations of motion and measurement are written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$ and given a choice $m_e$ and $n_e$ of equilibrium point of  the state m and the input n, the state, input, and measurement in the  state-space model must be $x = m - m_e$, $u = n - n_e$, and $y=  o - g(m_e, n_e)$. |
+| C82 | The definition of the state x, the input u, and the measurement y in the state-space model that is produced by linearizing the equations of motion about an equilibrium point must be specified and must be correct. That is, assuming the equations of motion and measurement are written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$ and given a choice $m_e$ and $n_e$ of equilibrium point of the state m and the input n, the state, input, and measurement in the state-space model must be $x = m - m_e$, $u = n - n_e$, and $y=  o - g(m_e, n_e)$. Equivalently, $n = u + n_e$ and so forth. |
 | C83 | The method of computing the matrices A and B that define the linearized dynamic model (e.g., expressions in terms of Jacobians) must be given and correct — a citation is insufficient. If you choose to show these matrices in your report — either the full matrices with numbers, or the structure of these matrices (e.g., which elements are zero or non-zero) — then these results must also be correct. If your control system includes an observer, then these requirements apply to the matrices C and D that define the linearized sensor model as well. |
 | C84 | The elements of the state $m$, input $n$, and measurement $o$ of the (nonlinear) equations of motion and measurement, when written in standard forms as $\dot{m} = f(m, n)$ and $o = g(m, n)$, must be clearly defined. |
 | C85 | The rank of the controllability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is controllable. |
@@ -219,7 +222,7 @@ These requirements may evolve during the semester.
 | C96 | The choice of actuators (e.g., the placement of reaction wheels on a spacecraft) and of sensors (e.g., the location of stars to be tracked) must be made before proceeding with model-based controller and observer design, because the dynamic model (used for controller design) and the sensor model (used for observer design) depend on these choices. A reason for these choices must also be given (e.g., why put a wheel here instead of there, why track three stars instead of five stars, etc.). |
 | C97 | The rank of the observability matrix (or, some alternative measure like its determinant or its smallest singular value) must be stated, and the correct conclusion must be drawn about whether or not the state space model is observable. |
 | C98 | If the true state is not known, the linear state feedback should be associated with the state estimate — i.e., use $-K \hat{x}$ instead of $-Kx$. |
-| C99 | The description of experimental methods must be self-consistent. For example, you cannot say both that initial conditions were random and that initial conditions were not random (i.e., were chosen to be something in particular). |
+| C99 | The description of experimental methods must be self-consistent. For example, you cannot say both that initial conditions were random and that initial conditions were not random (i.e., were chosen to be something in particular). In addition, the sum of frequencies should be equal to the total number of samples in histogram. |
 | C100 | If the control system includes an observer, the choice of initial state estimate must be specified. |
 | C101 | The review in the appendix "from the perspective of one or more of your cat-pilots" must be provided (e.g., prefaced by "stakeholders say"). It must not simply be a repeat of what was said previously (e.g., in the conclusion). |
 | C102 | If the control system includes an observer, then the report must provide evidence — presented in figures and tables — both that the observer works (e.g., by looking at error in the state estimate) and that the controller works (e.g., by looking at error in the state). |
@@ -230,5 +233,9 @@ These requirements may evolve during the semester.
 | C107 | If reference tracking is used, state and justify how the desired state of the nonlinear system (e.g., m_des) is chosen. This includes correctly specifying all elements of m_des, specifying your values for the desired positions p_x, p_y, and p_z ​ in DP4 (at least for illustrating reference tracking in the Theory section, assuming a single desired position—such as a ring—is given), and explaining why you chose them. |
 | C108 | Correctly define the desired state of the linear system (e.g., x_des = m_des - m_e). This includes correctly specifying all elements of x_des, identifying which of them can be changed (i.e., the state variables that can be tracked), while clearly distinguishing m_des from m_e. |
 | C109 | The dimensions of Q and R when applying LQR to design a controller must be correct: Q must be a square matrix of size equal to the number of states, and R must be a square matrix of size equal to the number of control inputs. The similar requirements apply to the dual LQR used to design an observer: Q must be square with dimensions equal to the number of states, and R must be square with dimensions equal to the number of measurements. |
+| C110 | In DP4, the report must provide evidence — presented in figures and tables — of how fast your drone completes the race (e.g., with a histogram of completion times). |
+| C111 | In DP4, the report must provide evidence — presented in figures and tables — of how long it takes for your controller to run (e.g., with a histogram of computation times). |
+| C112 | In DP4, the report must identify and diagnose failures (e.g., in the body text, or by visualizing a table categorizing failures and showing how frequently each type occurred) in Results and Discussion. These failures should be **in the final design**, not failures of an intermediate design that were fixed in the final design. |
+| C113 | In DP4, the report must contain "at least four figures [or tables, if justified] of aggregate results from at least 100 simulations." Remember that a plot with a single trajectory (or a small number of trajectories) is not a plot with "aggregate results." |
 
 
